@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CheatGuard/static/css/main.005aba55.css",
+    "main.js": "/CheatGuard/static/js/main.c4def64f.js",
+    "index.html": "/CheatGuard/index.html",
+    "main.005aba55.css.map": "/CheatGuard/static/css/main.005aba55.css.map",
+    "main.c4def64f.js.map": "/CheatGuard/static/js/main.c4def64f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.005aba55.css",
+    "static/js/main.c4def64f.js"
+  ]
+}
