@@ -1,0 +1,27 @@
+:root {
+  --txt-color1: white;
+  --txt-color2: #28639f;
+  --margin-left: 50px;
+  --margin-top: 2%;
+  --font-family: Arial, Helvetica, sans-serif;
+  --font-size: large;
+}
+.navbar .navbar-brand {
+  color: var(--txt-color1);
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar .collapse .navbar-nav .nav-link {
+  color: var(--txt-color1);
+  margin-left: var(--margin-left);
+  font-size: var(--font-family);
+  font-family: var(--font-family);
+}
+
+.navbar .collapse .navbar-nav .form-control {
+  height: 100%;
+  width: 500px;
+  margin-left: var(--margin-left);
+}
