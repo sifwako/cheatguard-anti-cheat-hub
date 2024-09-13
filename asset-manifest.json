@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/CheatGuard/static/css/main.005aba55.css",
-    "main.js": "/CheatGuard/static/js/main.c4def64f.js",
-    "index.html": "/CheatGuard/index.html",
-    "main.005aba55.css.map": "/CheatGuard/static/css/main.005aba55.css.map",
-    "main.c4def64f.js.map": "/CheatGuard/static/js/main.c4def64f.js.map"
+    "main.css": "/CheatGuardWebsite/static/css/main.efd540db.css",
+    "main.js": "/CheatGuardWebsite/static/js/main.2a930501.js",
+    "static/media/ai-integration.jpg": "/CheatGuardWebsite/static/media/ai-integration.c64e47bb8effd1979a4c.jpg",
+    "index.html": "/CheatGuardWebsite/index.html",
+    "main.efd540db.css.map": "/CheatGuardWebsite/static/css/main.efd540db.css.map",
+    "main.2a930501.js.map": "/CheatGuardWebsite/static/js/main.2a930501.js.map"
   },
   "entrypoints": [
-    "static/css/main.005aba55.css",
-    "static/js/main.c4def64f.js"
+    "static/css/main.efd540db.css",
+    "static/js/main.2a930501.js"
   ]
 }
