@@ -7,7 +7,7 @@ function Impersonation() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Impersonation</h1>
+      <h1>T1007: Impersonation</h1>
       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
@@ -28,7 +28,7 @@ function Impersonation() {
               <tr>
                 <td>
                   <Link to="/in-person" className="dropdown-item">
-                    T1002.001
+                    T1007.001
                   </Link>
                 </td>
                 <td>
@@ -40,7 +40,7 @@ function Impersonation() {
               <tr>
                 <td>
                   <Link to="/online" className="dropdown-item">
-                  T1002.002
+                  T1007.002
                   </Link>
                 </td>
                 <td>
@@ -75,6 +75,11 @@ function Impersonation() {
               [1]{" "}
             </Link>{" "}
           </sup>
+          <sup>
+            <Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">
+              [3]
+            </Link>
+          </sup>
           . Such incidents of impersonation severely compromise the integrity of
           the assessment, as they falsely represent a student's academic
           abilities.
@@ -92,7 +97,7 @@ function Impersonation() {
           <tbody>
             <tr>
               <td>M1015</td>
-              <td>Identity Verification</td>
+              <td>Identity Verification <sup><Link to="https://ieeexplore.ieee.org/document/10221192">[4]</Link></sup></td>
               <td>
                 Implement rigorous identity verification processes both before
                 and during the viva assessment. This can include photo ID checks
@@ -102,7 +107,7 @@ function Impersonation() {
             </tr>
             <tr>
               <td>M1016</td>
-              <td>Examiner Familiarity</td>
+              <td>Examiner Familiarity<sup><Link to="https://www.learntechlib.org/p/217913/">[6]</Link></sup></td>
               <td>
                 Utilize examiners who are familiar with the students,
                 potentially including their academic supervisors or lecturers
@@ -111,8 +116,8 @@ function Impersonation() {
               </td>
             </tr>
             <tr>
-              <td>M1017</td>
-              <td>Secure Environment</td>
+              <td>M1032</td>
+              <td>Secure Environment<sup><Link to="https://www.learntechlib.org/p/217913/">[6]</Link></sup></td>
               <td>
                 Conduct assessments in controlled environments where entry and
                 exit points are monitored. For online vivas, use secure
@@ -133,7 +138,7 @@ function Impersonation() {
           </thead>
           <tbody>
             <tr>
-              <td>D1018</td>
+              <td>D1019</td>
               <td>Visual Confirmation</td>
               <td>
                 Use facial recognition technology or manual checks by the
@@ -156,8 +161,8 @@ function Impersonation() {
               </td>
             </tr>
             <tr>
-              <td>D1019</td>
-              <td>Behavioral Analysis </td>
+              <td>D1020</td>
+              <td>Behavioral Analysis <sup><Link to="https://www.researchgate.net/figure/Defense-for-impersonation-attack-in-e-exam_tbl1_346100559">[5]</Link></sup> </td>
               <td>
                 Analyze speech patterns, knowledge articulation, and other
                 behavioral indicators that may suggest the person participating
@@ -165,8 +170,8 @@ function Impersonation() {
               </td>
             </tr>
             <tr>
-              <td>D1020</td>
-              <td>Documentation Review </td>
+              <td>D1021</td>
+              <td>Documentation Review <sup><Link to="https://www.learntechlib.org/p/217913/">[6]</Link></sup></td>
               <td>
                 Review previous records of the student's interactions,
                 presentations, and any recorded sessions to match with the
@@ -181,27 +186,15 @@ function Impersonation() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                [1]{" "}
-                <Link to="https://www.skillrobo.com/online-assessment-cheating/">
-                  W. Developer, “Cheating in Online Assessment Tests: How Can
-                  You Prevent It? - SkillRobo,” Skillrobo New, Feb. 07, 2024.
-                  https://www.skillrobo.com/online-assessment-cheating/
-                  (accessed May 10, 2024). ‌
-                </Link>
-              </p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[1]{" "}<Link to="https://www.skillrobo.com/online-assessment-cheating/">W. Developer, “Cheating in Online Assessment Tests: How CanYou Prevent It? - SkillRobo,” Skillrobo New, Feb. 07, 2024.. ‌</Link></p>
+              <p>[2]{" "}<Link to="https://blog.talview.com/en/6-ways-students-cheat-in-online-proctored-exams">T. Talview, “The 6 Most Common Ways Students Cheat in Online Proctored Exams,” blog.talview.com.</Link></p>
+              <p>[3]<Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">F. Noorbehbahani, A. Mohammadi, and M. Aminazadeh, “A systematic review of research on cheating in online exams from 2010 to 2021,” Educ Inf Technol (Dordr), vol. 27, no. 6, p. 8413, Jul. 2022.</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                [2]{" "}
-                <Link to="https://blog.talview.com/en/6-ways-students-cheat-in-online-proctored-exams">
-                  T. Talview, “The 6 Most Common Ways Students Cheat in Online
-                  Proctored Exams,” blog.talview.com.
-                  https://blog.talview.com/en/6-ways-students-cheat-in-online-proctored-exams
-                  (accessed May 10, 2024). ‌
-                </Link>
-              </p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[4]<Link to="https://ieeexplore.ieee.org/document/10221192">Impersonation Attacks Detection in Online Exams Through Static Photo Analysis with Similarity Score. (2023, July 26). IEEE Conference Publication | IEEE Xplore.</Link></p>
+              <p>[5]<Link to="https://www.researchgate.net/figure/Defense-for-impersonation-attack-in-e-exam_tbl1_346100559">Defense for impersonation attack in e-exam. (n.d.). ResearchGate.</Link></p>
+              <p>[6]<Link to="https://www.learntechlib.org/p/217913/">Rosmansyah, Y., Hendarto, I., & Pratama, D. (2020, October 5). Impersonation Attack-Defense tree. Learning & Technology Library (LearnTechLib).</Link></p>
             </div>
           </div>
         </div>

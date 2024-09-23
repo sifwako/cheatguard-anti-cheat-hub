@@ -38,7 +38,7 @@ function InPerson() {
           </thead>
           <tbody>
             <tr>
-              <td>M1018</td>
+              <td>M1033</td>
               <td>ID Verification</td>
               <td>
                 Require multiple forms of identification at the time of the
@@ -52,16 +52,16 @@ function InPerson() {
               </td>
             </tr>
             <tr>
-              <td>M1019</td>
-              <td>Biometric Verification </td>
+              <td>M1034</td>
+              <td>Biometric Verification<sup><Link to="https://www.learntechlib.org/p/217913/">[6]</Link></sup> </td>
               <td>
                 Use biometric verification methods such as fingerprint or facial
                 recognition.
               </td>
             </tr>
             <tr>
-              <td>M1020</td>
-              <td>Signature Comparision</td>
+              <td>M1035</td>
+              <td>Signature Comparision<sup><Link to="https://www.learntechlib.org/p/217913/">[6]</Link></sup></td>
               <td>
                 Requiring test takers to sign in upon arrival and compare the
                 signature to that on the ID card. This method adds an additional
@@ -82,16 +82,16 @@ function InPerson() {
           </thead>
           <tbody>
             <tr>
-              <td>D1021</td>
-              <td>Audiovisual Monitoring </td>
+              <td>D1022</td>
+              <td>Audiovisual Monitoring <sup><Link to="https://www.learntechlib.org/p/217913/">[3]</Link></sup></td>
               <td>
                 Use video recording to ensure the same candidate who starts the
                 exam finishes it.
               </td>
             </tr>
             <tr>
-              <td>D1022</td>
-              <td>Examiner Interviews</td>
+              <td>D1023</td>
+              <td>Examiner Interviews<sup><Link to="https://www.learntechlib.org/p/217913/">[3]</Link></sup></td>
               <td>
                 Utilize knowledgeable examiners to ask specific questions that
                 verify the candidate's identity.
@@ -105,7 +105,7 @@ function InPerson() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link
@@ -125,8 +125,9 @@ function InPerson() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p></p>
+            <div className="col-sm-12 col-md-6 col-lg-6"style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://www.learntechlib.org/p/217913/">Rosmansyah, Y., Hendarto, I., & Pratama, D. (2020, October 5). Impersonation Attack-Defense tree. Learning & Technology Library (LearnTechLib).</Link></p>
+             
             </div>
           </div>
         </div>

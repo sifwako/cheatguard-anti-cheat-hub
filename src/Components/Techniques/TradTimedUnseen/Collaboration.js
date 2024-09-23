@@ -6,7 +6,7 @@ function Collaboration() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Collaboration</h1>
+      <h1>T1011: Collaboration</h1>
 
       <div className="description">
         <p>
@@ -18,6 +18,12 @@ function Collaboration() {
               [1]
             </Link>
           </sup>
+          <sup>
+            <Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">
+              [7]
+            </Link>
+          </sup>
+
           . This cheating technique is often tempted by the assumption that
           students will have independently reviewed the entire curriculum, thus
           exams tend to focus on broader knowledge and understanding. When exams
@@ -39,7 +45,7 @@ function Collaboration() {
           </thead>
           <tbody>
             <tr>
-              <td>M1030</td>
+              <td>M1045</td>
               <td>Test Question Randomization</td>
               <td>
                 Utilize test question randomization to ensure each student
@@ -70,7 +76,7 @@ function Collaboration() {
           </thead>
           <tbody>
             <tr>
-              <td>D1031</td>
+              <td>D1034</td>
               <td>Digital Monitoring Tools </td>
               <td>
                 Use advanced digital tools that can monitor and log students'
@@ -99,7 +105,7 @@ function Collaboration() {
               </td>
             </tr>
             <tr>
-              <td>D1032</td>
+              <td>D1035</td>
               <td>Post-Examination Reviews</td>
               <td>
                 Conduct random interviews or ask follow-up questions post-exam
@@ -119,7 +125,7 @@ function Collaboration() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://camosun.libguides.com/academicintegrity/collaborationvscollusion#s-lg-box-16303355">
@@ -146,7 +152,7 @@ function Collaboration() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [4]{" "}
                 <Link to="https://www.examity.coma/">
@@ -169,6 +175,7 @@ function Collaboration() {
                   https://youtu.be/WiB6WXUT8pc (accessed May 10, 2024).‌
                 </Link>
               </p>
+              <p>[7]<Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">F. Noorbehbahani, A. Mohammadi, and M. Aminazadeh, “A systematic review of research on cheating in online exams from 2010 to 2021,” Educ Inf Technol (Dordr), vol. 27, no. 6, p. 8413, Jul. 2022.</Link></p>
             </div>
           </div>
         </div>

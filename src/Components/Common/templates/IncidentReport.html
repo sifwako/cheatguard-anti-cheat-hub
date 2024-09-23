@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cheat Guard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="IncidentReport.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100%;
+            overflow-y: scroll; /* Ensure body is scrollable */
+        }
+
+        .navbar {
+            width: 100%;
+            background: #28639f;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 40px;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        .navbar button {
+            background: none;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar button:hover {
+            text-decoration: none;
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            align-self: flex-start;
+        }
+
+        button:hover {
+            text-decoration: underline;
+        }
+
+        .incidents-container {
+            margin-top: 20px;
+            width: 100%;
+            overflow-x: auto; /* Ensure container is scrollable horizontally */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            table-layout: fixed; /* Fixed layout for consistent column widths */
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            white-space: normal; /* Allow text to wrap */
+            overflow: hidden;
+            word-wrap: break-word; /* Ensure text wraps within cells */
+            width: 300px; /* Set a fixed width for all columns */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            table,
+            th,
+            td {
+                display: block;
+                width: 100%;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                text-align: right;
+                border: none;
+                position: relative;
+            }
+
+            th::before,
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 10px;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body data-is-admin="{{ isAdmin }}">
+    <div class="navbar">
+        <div style="margin-left: 20px;">Cheat Guard</div>
+        <form id="logout-form" method="POST" action="/logout">
+            <button type="submit" id="logout-button">Logout</button>
+        </form>
+    </div>
+    {% if isAdmin %}
+    <div class="container incidents-container" id="admin-section">
+        <h1>Cheating Incidents</h1>
+        <div class="table-responsive">
+            <table id="incidents-table">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Incident ID</th>
+                        <th onclick="sortTable(1)">Contributor Organization</th>
+                        <th onclick="sortTable(2)">Technique Name</th>
+                        <th onclick="sortTable(3)">Description</th>
+                        <th onclick="sortTable(4)">Detection Method</th>
+                        <th onclick="sortTable(5)">Created At</th>
+                        <th onclick="sortTable(6)">Indicators</th>
+                        <th onclick="sortTable(7)">Mitigation Strategies</th>
+                        <th onclick="sortTable(8)">Items Used</th>
+                        <th onclick="sortTable(9)">Contributor Contact</th>
+                        <th onclick="sortTable(10)">Evidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% else %}
+    <div class="container">
+        <h1>Share a Cheating Incident</h1>
+        <form id="incident-form" enctype="multipart/form-data">
+            <label for="technique_name">What was the cheating technique used by the student?</label>
+            <input type="text" id="technique_name" name="technique_name" required>
+            <label for="description">Describe the cheating incident</label>
+            <textarea id="description" name="description" required></textarea>
+            <label for="detection_method">How was the incident detected?</label>
+            <input type="text" id="detection_method" name="detection_method" required>
+            <label for="indicators">What are the indicators of the incident?</label>
+            <input type="text" id="indicators" name="indicators">
+            <label for="mitigation_strategies">Suggested mitigation strategies for such incident</label>
+            <input type="text" id="mitigation_strategies" name="mitigation_strategies">
+            <label for="items_used">What were the items used to facilitate the incident?</label>
+            <input type="text" id="items_used" name="items_used">
+            <label for="contributor_organization">Contributor Organization (Your Organization Name)</label>
+            <input type="text" id="contributor_organization" name="contributor_organization">
+            <label for="contributor_contact">Contributor Contact (Your Contact)</label>
+            <input type="text" id="contributor_contact" name="contributor_contact">
+            <label for="evidence">Attach Evidence (optional)</label>
+            <input type="file" id="evidence" name="evidence">
+            <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+        </form>
+    </div>
+    {% endif %}
+
+    <script>
+        // Check if the user is admin and show the admin section if true
+        const isAdmin = document.body.getAttribute('data-is-admin') === 'True';
+        if (isAdmin) {
+            // Automatically load incidents for admin
+            loadIncidents();
+        }
+
+        document.getElementById('incident-form').onsubmit = async function(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const data = {
+                technique_name: formData.get('technique_name'),
+                description: formData.get('description'),
+                detection_method: formData.get('detection_method'),
+                indicators: formData.get('indicators') ? formData.get('indicators').split(',') : [],
+                mitigation_strategies: formData.get('mitigation_strategies') ? formData.get('mitigation_strategies').split(',') : [],
+                items_used: formData.get('items_used') ? formData.get('items_used').split(',') : [],
+                contributor_organization: formData.get('contributor_organization'),
+                contributor_contact: formData.get('contributor_contact')
+            };
+
+            const evidence = formData.get('evidence');
+
+            const requestData = new FormData();
+            requestData.append('technique_name', data.technique_name);
+            requestData.append('description', data.description);
+            requestData.append('detection_method', data.detection_method);
+            requestData.append('indicators', data.indicators);
+            requestData.append('mitigation_strategies', data.mitigation_strategies);
+            requestData.append('items_used', data.items_used);
+            requestData.append('contributor_organization', data.contributor_organization);
+            requestData.append('contributor_contact', data.contributor_contact);
+            if (evidence) {
+                requestData.append('evidence', evidence);
+            }
+
+            try {
+                const response = await fetch('/taxci/inbox', {
+                    method: 'POST',
+                    body: requestData
+                });
+                const result = await response.json();
+                if (result.status === "success") {
+                    alert('Incident published with ID: ' + result.incident_id);
+                } else {
+                    alert('Failed to publish incident');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Failed to publish incident');
+            }
+        };
+
+        async function loadIncidents() {
+            try {
+                const response = await fetch('/taxci/poll');
+                const incidents = await response.json();
+                const tbody = document.getElementById('incidents-table').querySelector('tbody');
+                tbody.innerHTML = '';
+
+                incidents.forEach(incident => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td data-label="Incident ID">${incident.id}</td>
+                        <td data-label="Contributor Organization">${incident.contributor_organization}</td>
+                        <td data-label="Technique Name">${incident.technique_name}</td>
+                        <td data-label="Description">${incident.description}</td>
+                        <td data-label="Detection Method">${incident.detection_method}</td>
+                        <td data-label="Created At">${formatDate(incident.created_at)}</td>
+                        <td data-label="Indicators">${incident.indicators.join(', ')}</td>
+                        <td data-label="Mitigation Strategies">${incident.mitigation_strategies.join(', ')}</td>
+                        <td data-label="Items Used">${incident.items_used.join(', ')}</td>
+                        <td data-label="Contributor Contact">${incident.contributor_contact}</td>
+                        <td data-label="Evidence"><a href="/uploads/evidence/${incident.evidence}" target="_blank">View Evidence</a></td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Failed to retrieve incidents');
+            }
+        }
+
+        function formatDate(dateString) {
+            const options = {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            };
+            return new Date(dateString).toLocaleString(undefined, options);
+        }
+
+        function sortTable(columnIndex) {
+            const table = document.getElementById("incidents-table");
+            const tbody = table.querySelector("tbody");
+            const rowsArray = Array.from(tbody.rows);
+
+            const sortedRows = rowsArray.sort((a, b) => {
+                const aText = a.cells[columnIndex].textContent.trim();
+                const bText = b.cells[columnIndex].textContent.trim();
+                return aText.localeCompare(bText);
+            });
+
+            tbody.innerHTML = "";
+            sortedRows.forEach(row => tbody.appendChild(row));
+        }
+    </script>
+</body>
+
+</html>

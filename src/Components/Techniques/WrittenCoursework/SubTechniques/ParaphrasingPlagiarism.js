@@ -39,12 +39,12 @@ function ParaphrasingPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>M1006</td>
+              <td>M1023</td>
               <td>Paraphrasing Education </td>
               <td>
                 Teach students how to paraphrase correctly by changing both the
                 words and structure of the original text while crediting the
-                original idea.
+                original idea<sup><Link to ='https://www.turnitin.com/blog/how-to-avoid-plagiarism-10-strategies-for-your-students'>[4]</Link></sup>.
               </td>
             </tr>
           </tbody>
@@ -61,8 +61,8 @@ function ParaphrasingPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>D1004</td>
-              <td>Advanced Similarity Detection </td>
+              <td>D1015</td>
+              <td>Advanced Similarity Detection<p><sup><Link to="https://www.turnitin.com/">[3]</Link></sup></p></td>
               <td>
                 Utilize advanced plagiarism detection tools that can identify
                 high levels of similarity in paraphrased content and look for
@@ -77,7 +77,7 @@ function ParaphrasingPlagiarism() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.grammarly.com/blog/types-of-plagiarism/">
@@ -86,8 +86,12 @@ function ParaphrasingPlagiarism() {
                   https://www.grammarly.com/blog/types-of-plagiarism/
                 </Link>
               </p>
+              <p>[2]<Link to ='https://www.turnitin.com/blog/how-to-avoid-plagiarism-10-strategies-for-your-students'> Campbell, A. (2023, December 6). Tips on how to avoid plagiarism as a student | Turnitin.</Link></p>
+
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6"></div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://www.turnitin.com/">Turnitin. (n.d.). Plagiarism Detector: Prevent Academic Misconduct | Turnitin.</Link></p>
+            </div>
           </div>
         </div>
       </div>

@@ -43,8 +43,8 @@ function EssayMills() {
           </thead>
           <tbody>
             <tr>
-              <td>M1011</td>
-              <td>Customized Assignments</td>
+              <td>M1028</td>
+              <td>Customized Assignments <sup><Link to="https://elearning.company/blog/adaptive-assessments-and-personalized-feedback-the-future-of-education/">[5]</Link></sup></td>
               <td>
                 Designing assignments that require specific, personalized
                 responses or that are closely integrated with class discussions
@@ -53,8 +53,8 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>M1012</td>
-              <td>Oral Defenses</td>
+              <td>M1029</td>
+              <td>Oral Defenses <sup><Link to="https://www.timeshighereducation.com/campus/deter-contract-cheating-online-assessment-multipronged-approach">[6]</Link></sup></td>
               <td>
                 Implementing oral defenses where students must discuss and
                 defend their submitted work in front of instructors, helping to
@@ -75,7 +75,7 @@ function EssayMills() {
           </thead>
           <tbody>
             <tr>
-              <td>D1011</td>
+              <td>D1022</td>
               <td>Analysis of Themes and Topics</td>
               <td>
                 A submission that include general terms or topics where the
@@ -93,7 +93,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1012</td>
+              <td>D1023</td>
               <td>Template Similarity</td>
               <td>
                 Another indication is that paid sources like ‘essay mills’ often
@@ -110,7 +110,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1013</td>
+              <td>D1024</td>
               <td>Document Metadata:</td>
               <td>
                 It is also possible to reveal the original author's name or the
@@ -128,7 +128,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1014</td>
+              <td>D1025</td>
               <td>Language Analysis</td>
               <td>
                 A student who submits a work with perfect grammar and uses
@@ -147,7 +147,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1015</td>
+              <td>D1026</td>
               <td>Comparison with Previous Submissions</td>
               <td>
                 {" "}
@@ -168,7 +168,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1016</td>
+              <td>D1027</td>
               <td>Plagiarism Detection Software</td>
               <td>
                 {" "}
@@ -196,7 +196,7 @@ function EssayMills() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://doi.org/10.1007/s40979-021-00081-x.">
@@ -221,7 +221,7 @@ function EssayMills() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [4]
                 <Link to="https://doi.org/10.53761/1.6.1.6.">
@@ -231,6 +231,8 @@ function EssayMills() {
                   no. 1, pp. 57–69, Jan. 2009. ‌
                 </Link>
               </p>
+              <p>[5]<Link to="https://elearning.company/blog/adaptive-assessments-and-personalized-feedback-the-future-of-education/">eLearning Company Blog (2024). Adaptive Assessments and Personalized Feedback: The Future of... [online] The eLearning Blog.</Link></p>
+              <p>[6]<Link to="https://www.timeshighereducation.com/campus/deter-contract-cheating-online-assessment-multipronged-approach">Deter contract cheating in online assessment with a multi-pronged approach. (2024, July 16). THE Campus Learn, Share, Connect.</Link></p>
             </div>
           </div>
         </div>

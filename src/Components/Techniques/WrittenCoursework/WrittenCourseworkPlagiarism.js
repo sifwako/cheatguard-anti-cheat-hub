@@ -9,7 +9,7 @@ function WrittenCourseworkPlagiarism() {
 
   return (
     <div className="app-container">
-      <h1>Plagiarism</h1>
+      <h1>T1005: Plagiarism</h1>
       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
@@ -31,7 +31,7 @@ function WrittenCourseworkPlagiarism() {
               <tr>
                 <td>
                   <Link to="/complete-plagiarism" className="dropdown-item">
-                    T1000.001
+                    T1005.001
                   </Link>
                 </td>
                 <td>
@@ -43,7 +43,7 @@ function WrittenCourseworkPlagiarism() {
               <tr>
                 <td>
                   <Link to="/direct-plagiarism" className="dropdown-item">
-                  T1000.002
+                  T1005.002
                   </Link>
                 </td>
                 <td>
@@ -55,7 +55,7 @@ function WrittenCourseworkPlagiarism() {
               <tr>
                 <td>
                   <Link to="/paraphrasing-plagiarism" className="dropdown-item">
-                  T1000.003
+                  T1005.003
                   </Link>
                 </td>
                 <td>
@@ -67,7 +67,7 @@ function WrittenCourseworkPlagiarism() {
               <tr>
                 <td>
                   <Link to="/self-plagiarism" className="dropdown-item">
-                  T1000.004
+                  T1005.004
                   </Link>
                 </td>
                 <td>
@@ -113,7 +113,7 @@ function WrittenCourseworkPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>M1000</td>
+              <td>M1017</td>
               <td>Define plagiarism clearly</td>
               <td>
                 {" "}
@@ -131,7 +131,7 @@ function WrittenCourseworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>M1001</td>
+              <td>M1018</td>
               <td>Educational workshops and seminars</td>
               <td>
                 {" "}
@@ -164,7 +164,7 @@ function WrittenCourseworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>M1002</td>
+              <td>M1019</td>
               <td>Create original and multipart assignments</td>
               <td>
                 {" "}
@@ -186,7 +186,7 @@ function WrittenCourseworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>M1003</td>
+              <td>M1020</td>
               <td>Promote academic support services</td>
               <td>
                 {" "}
@@ -218,7 +218,7 @@ function WrittenCourseworkPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>D1000</td>
+              <td>D1011</td>
               <td>Stylometric Analysis</td>
               <td>
                 {" "}
@@ -237,7 +237,7 @@ function WrittenCourseworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>D1001</td>
+              <td>D1012</td>
               <td>Turnitin and other plagiarism detection software</td>
               <td>
                 {" "}
@@ -266,7 +266,8 @@ function WrittenCourseworkPlagiarism() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+
               <p>
                 [1]{" "}
                 <Link to="https://www.grammarly.com/blog/types-of-plagiarism/">
@@ -283,15 +284,15 @@ function WrittenCourseworkPlagiarism() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6 " style={{ textAlign: "left" }}>
               <p>
                 [3]{" "}
                 <Link to="https://economicsnetwork.ac.uk/handbook/printable/plagiarism_he.pdf">
                   C. Cortinhas, “Detection and Prevention of Plagiarism in
-                  Higher Education.” Available:
-                  https://economicsnetwork.ac.uk/handbook/printable/plagiarism_he.pdf
+                  Higher Education.” Available:https://economicsnetwork.ac.uk/handbook/printable/plagiarism_he.pdf
                 </Link>
               </p>
+      
             </div>
           </div>
         </div>

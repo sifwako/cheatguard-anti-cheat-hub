@@ -43,6 +43,73 @@ function HomePage() {
       <div className="matrix-scroll-box pb-3">
         <h2 className="matrix-title">CheatGuard Matrix</h2>
         <div className="matrix-grid">
+        <div className="matrix-container">
+            <h6>
+              <Link to="/ai-assessmentscale" data-toggle="tooltip" data-placement="top">
+              AI Usage Levels
+              </Link>
+            </h6>
+            <br />
+            <p className="tactic_count"> 5 Levels </p>
+            <table className="techniques-table">
+              <tr>
+                <td>
+                  <Link
+                    to="/level_one"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Level 1: No AI
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <Link
+                    to="/level_two"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Level 2: AI-Assisted Idea <br />Generation
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <Link
+                    to="/level_three"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Level 3: AI-Assisted Editing
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <Link
+                    to="/level_four"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Level 4: AI Task Completion
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <Link
+                    to="/level_five"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Level 5: Full AI
+                  </Link>
+                </td>
+              </tr>
+            </table>
+          </div>
+
           <div className="matrix-container">
             <h6 className="ass-name">
               <Link

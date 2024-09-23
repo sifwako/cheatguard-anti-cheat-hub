@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function PreemptiveSolutionCompilation() {
   return (
     <div className="app-container">
-      <h1>Preemptive Solution Compilation</h1>
+      <h1>T1014: Preemptive Solution Compilation</h1>
       <div className="description">
         <p>
           In open book exams, where students are permitted to use certain
@@ -48,7 +48,7 @@ function PreemptiveSolutionCompilation() {
           </thead>
           <tbody>
             <tr>
-              <td>M1037</td>
+              <td>M1061</td>
               <td>Clear Exam Guidelines </td>
               <td>
                 To address the issue of preemptive solution compilation in open
@@ -71,7 +71,7 @@ function PreemptiveSolutionCompilation() {
               </td>
             </tr>
             <tr>
-              <td>M1038</td>
+              <td>M1062</td>
               <td>Controlled Materials </td>
               <td>
                 It is important to limit the type of materials allowed during
@@ -91,7 +91,7 @@ function PreemptiveSolutionCompilation() {
               </td>
             </tr>
             <tr>
-              <td>M1039</td>
+              <td>M1063</td>
               <td>Question Design </td>
               <td>
                 Design questions that go beyond simple recall and instead
@@ -125,7 +125,7 @@ function PreemptiveSolutionCompilation() {
           </thead>
           <tbody>
             <tr>
-              <td>D1037</td>
+              <td>D1050</td>
               <td>Screen Monitoring </td>
               <td>
                 Implement real-time screen monitoring where proctors or faculty
@@ -142,7 +142,7 @@ function PreemptiveSolutionCompilation() {
               </td>
             </tr>
             <tr>
-              <td>D1038</td>
+              <td>D1051</td>
               <td>Activity Logs </td>
               <td>
                 Use system-generated activity logs to monitor file access and
@@ -159,7 +159,7 @@ function PreemptiveSolutionCompilation() {
               </td>
             </tr>
             <tr>
-              <td>D1039</td>
+              <td>D1052</td>
               <td>Whitelist Applications and Websites </td>
               <td>
                 Set up a system that allows only whitelisted applications and
@@ -175,7 +175,7 @@ function PreemptiveSolutionCompilation() {
               </td>
             </tr>
             <tr>
-              <td>D1040</td>
+              <td>D1053</td>
               <td>Manual Proctoring </td>
               <td>
                 Having human proctors supervise the exam environment can act as
@@ -198,7 +198,7 @@ function PreemptiveSolutionCompilation() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 {" "}
                 [1]
@@ -208,7 +208,7 @@ function PreemptiveSolutionCompilation() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p></p>
             </div>
           </div>

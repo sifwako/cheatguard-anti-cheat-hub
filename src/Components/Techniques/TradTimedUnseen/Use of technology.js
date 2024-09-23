@@ -7,7 +7,7 @@ function UseofTechnology() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Use of Technology</h1>
+      <h1>T1012: Use of Technology</h1>
       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
@@ -31,7 +31,7 @@ function UseofTechnology() {
                     to="/screen-sharing-and-remote-control"
                     className="dropdown-item"
                   >
-                    T1006.100
+                    T1012.100
                   </Link>
                 </td>
                 <td>
@@ -46,7 +46,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/virtual-machines" className="dropdown-item">
-                  T1006.101
+                  T1012.101
                   </Link>
                 </td>
                 <td>
@@ -58,7 +58,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/wearable-devices" className="dropdown-item">
-                  T1006.102
+                  T1012.102
                   </Link>
                 </td>
                 <td>
@@ -70,7 +70,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/programmable-calculator" className="dropdown-item">
-                  T1006.103
+                  T1012.103
                   </Link>
                 </td>
                 <td>
@@ -82,7 +82,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/bluetooth-earphones" className="dropdown-item">
-                  T1006.104
+                  T1012.104
                   </Link>
                 </td>
                 <td>
@@ -97,7 +97,7 @@ function UseofTechnology() {
                     to="/hdmi-cable-screen-sharing"
                     className="dropdown-item"
                   >
-                    T1006.105
+                    T1012.105
                   </Link>
                 </td>
                 <td>
@@ -112,7 +112,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/phones" className="dropdown-item">
-                  T1006.106
+                  T1012.106
                   </Link>
                 </td>
                 <td>
@@ -167,7 +167,7 @@ function UseofTechnology() {
           </thead>
           <tbody>
             <tr>
-              <td>M1031</td>
+              <td>M1046</td>
               <td>Prohibition of Electronic Devices </td>
               <td>
                 Educational institutions should strictly prohibit the use of
@@ -184,7 +184,7 @@ function UseofTechnology() {
               </td>
             </tr>
             <tr>
-              <td>M1032</td>
+              <td>M1047</td>
               <td>Vigilant Monitoring </td>
               <td>
                 Increase physical monitoring by employing trained examiners who
@@ -203,8 +203,8 @@ function UseofTechnology() {
               </td>
             </tr>
             <tr>
-              <td>M1033</td>
-              <td>Secure Testing Environments </td>
+              <td>M1048</td>
+              <td>Secure Testing Environments <sup><Link to="https://synap.ac/blog/anti-cheat-methods-for-online-exams/">[6]</Link></sup></td>
               <td>
                 Educational institutions can implement testing environments that
                 utilize software to restrict the capabilities of permitted
@@ -228,7 +228,7 @@ function UseofTechnology() {
           </thead>
           <tbody>
             <tr>
-              <td>D1033</td>
+              <td>D1036</td>
               <td>Surveillance Cameras </td>
               <td>
                 Utilizing CCTV cameras to visually monitor the exam environment,
@@ -243,15 +243,6 @@ function UseofTechnology() {
                 behavior or unauthorized activities.{" "}
               </td>
             </tr>
-            <tr>
-              <td>D1034</td>
-              <td>Device Scanning </td>
-              <td>
-                Conduct random inspections of any allowed electronic devices to
-                ensure they are not pre-loaded with unauthorized information or
-                being used to access external data.{" "}
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -260,7 +251,7 @@ function UseofTechnology() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]
                 <Link to="https://files.eric.ed.gov/fulltext/EJ1137336.pdf">
@@ -287,7 +278,10 @@ function UseofTechnology() {
                   (accessed May 11, 2024). ‌
                 </Link>
               </p>
-              <p>
+           
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+            <p>
                 [4]{" "}
                 <Link to="https://videoloft.com/cctv-for-schools/">
                   A. Pearson, “Educational facilities security - How to keep
@@ -295,10 +289,8 @@ function UseofTechnology() {
                   https://videoloft.com/cctv-for-schools/ ‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
-                [4]
+                [5]
                 <Link to="https://www.techrxiv.org/users/706619/articles/691866-automatic-cheating-detection-in-exam-hall">
                   “Automatic Cheating Detection In Exam Hall - TechRxiv,”
                   www.techrxiv.org.
@@ -306,6 +298,7 @@ function UseofTechnology() {
                   (accessed May 11, 2024). ‌
                 </Link>
               </p>
+              <p>[6]<Link to="https://synap.ac/blog/anti-cheat-methods-for-online-exams/">15 anti-cheating methods for online exam security - Synap - Synap Blog. (n.d.).</Link></p>
             </div>
           </div>
         </div>
