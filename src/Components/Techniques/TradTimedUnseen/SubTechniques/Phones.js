@@ -62,7 +62,7 @@ function Phones() {
               <td>
                 Utilizing proctoring software that can detect if students are
                 using their cell phones or other devices to access information
-                during the exam.
+                during the exam. 
               </td>
             </tr>
             <tr>
