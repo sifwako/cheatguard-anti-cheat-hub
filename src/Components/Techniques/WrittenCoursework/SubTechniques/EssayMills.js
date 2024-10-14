@@ -13,7 +13,7 @@ function EssayMills() {
           individual that contracts with students to complete academic
           assignments for a fee. By providing students with completed work that
           they can submit as their own, these services facilitate academic
-          dishonesty. Many essay mills recruit writers through bidding processes
+          dishonesty<sup><Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-021-00081-x">[7]</Link></sup>. Many essay mills recruit writers through bidding processes
           and operate for profit rather than to provide a good service to their
           customers{" "}
           <sup>
@@ -220,8 +220,6 @@ function EssayMills() {
                   “Contract Cheating Detection and Reporting: A Staff Guide.” ‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [4]
                 <Link to="https://doi.org/10.53761/1.6.1.6.">
@@ -231,8 +229,12 @@ function EssayMills() {
                   no. 1, pp. 57–69, Jan. 2009. ‌
                 </Link>
               </p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+             
               <p>[5]<Link to="https://elearning.company/blog/adaptive-assessments-and-personalized-feedback-the-future-of-education/">eLearning Company Blog (2024). Adaptive Assessments and Personalized Feedback: The Future of... [online] The eLearning Blog.</Link></p>
               <p>[6]<Link to="https://www.timeshighereducation.com/campus/deter-contract-cheating-online-assessment-multipronged-approach">Deter contract cheating in online assessment with a multi-pronged approach. (2024, July 16). THE Campus Learn, Share, Connect.</Link></p>
+              <p>[7]<Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-021-00081-x">M. Draper, T. Lancaster, S. Dann, R. Crockett, and I. Glendinning, “Essay mills and other contract cheating services: to buy or not to buy and the consequences of students changing their minds,” International Journal for Educational Integrity, vol. 17, no. 1, pp. 1–13, Dec. 2021</Link></p>
             </div>
           </div>
         </div>

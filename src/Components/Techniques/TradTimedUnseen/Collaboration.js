@@ -31,7 +31,7 @@ function Collaboration() {
           encourage students to collaborate as a means to cover more content
           with less individual effort. Collaboration during exams can involve
           signaling answers, sharing written notes, or even digital
-          communication if monitoring is poor.
+          communication if monitoring is poor<sup><Link to="https://edusson.com/blog/49-ways-to-cheat-on-college">[8]</Link></sup>.
         </p>
       </div>
 
@@ -151,8 +151,6 @@ function Collaboration() {
                   proctorio.com. https://proctorio.com/‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [4]{" "}
                 <Link to="https://www.examity.coma/">
@@ -160,6 +158,8 @@ function Collaboration() {
                   https://www.examity.com/
                 </Link>
               </p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [5]{" "}
                 <Link to="https://www.proctoru.com/">
@@ -176,6 +176,7 @@ function Collaboration() {
                 </Link>
               </p>
               <p>[7]<Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">F. Noorbehbahani, A. Mohammadi, and M. Aminazadeh, “A systematic review of research on cheating in online exams from 2010 to 2021,” Educ Inf Technol (Dordr), vol. 27, no. 6, p. 8413, Jul. 2022.</Link></p>
+            <p>[8]<Link to="https://edusson.com/blog/49-ways-to-cheat-on-college">“49 Ways To Cheat on a College | Edusson Blog.” Accessed: Sep. 21, 2024. [Online]. </Link></p>
             </div>
           </div>
         </div>

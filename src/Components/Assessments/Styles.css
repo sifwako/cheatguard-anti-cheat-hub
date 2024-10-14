@@ -3,6 +3,10 @@
   margin-top: 0%;
 }
 
+.description-body {
+  text-align: left; /* Ensure text is left-aligned */
+}
+
 .table-techniques {
   width: 100%;
   border-collapse: collapse;
@@ -24,7 +28,4 @@
 }
 .table-techniques .sub.technique td {
   padding-left: 20px;
-}
-.description {
-  text-align: justify;
 }

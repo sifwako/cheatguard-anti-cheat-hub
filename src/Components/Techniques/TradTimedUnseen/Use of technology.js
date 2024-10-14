@@ -144,7 +144,7 @@ function UseofTechnology() {
           </sup>
           . This type of cheating exploits the functionality of these devices to
           illicitly gain access to information, store answers, or facilitate
-          communication with others during tests. The discrete nature and
+          communication with others during tests<sup><Link to="www.aitp-edsig.org/www.isedj.org">[10]</Link></sup><sup><Link to="10.1007/S10805-021-09413-5">[11]</Link></sup>. The discrete nature and
           ubiquitous presence of these technologies in students’ lives make them
           particularly challenging to detect and manage within an examination
           setting. <br />
@@ -187,7 +187,7 @@ function UseofTechnology() {
               <td>M1047</td>
               <td>Vigilant Monitoring </td>
               <td>
-                Increase physical monitoring by employing trained examiners who
+                Increase physical monitoring by employing trained examiners <sup><Link  to="https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2096">[9]</Link></sup> who
                 are adept at identifying the use of unauthorized devices. Random
                 checks conducted by teachers and administrators before and
                 during exams further assist in detecting and deterring the use
@@ -209,9 +209,9 @@ function UseofTechnology() {
                 Educational institutions can implement testing environments that
                 utilize software to restrict the capabilities of permitted
                 electronic devices, limiting them to essential functionalities
-                necessary for the exam. This measure involves employing
+                necessary for the exam<sup><Link to="https://publishoa.com/index.php/journal/article/view/661">[8]</Link></sup>. This measure involves employing
                 detection software that identifies any irregular or suspicious
-                activity during exams.
+                activity during exams <sup><Link to="https://ijece.iaescore.com/index.php/IJECE/article/view/30268">[7]</Link></sup>.
               </td>
             </tr>
           </tbody>
@@ -278,10 +278,7 @@ function UseofTechnology() {
                   (accessed May 11, 2024). ‌
                 </Link>
               </p>
-           
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
-            <p>
+              <p>
                 [4]{" "}
                 <Link to="https://videoloft.com/cctv-for-schools/">
                   A. Pearson, “Educational facilities security - How to keep
@@ -299,6 +296,17 @@ function UseofTechnology() {
                 </Link>
               </p>
               <p>[6]<Link to="https://synap.ac/blog/anti-cheat-methods-for-online-exams/">15 anti-cheating methods for online exam security - Synap - Synap Blog. (n.d.).</Link></p>
+
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+            
+              <p>[7]<Link to="https://ijece.iaescore.com/index.php/IJECE/article/view/30268">G. Moukhliss, R. F. Hilali, and H. Belhadaoui, “Intelligent solution for automatic online exam monitoring,” International Journal of Electrical and Computer Engineering, vol. 13, no. 5, pp. 5333–5341, Oct. 2023</Link></p>
+            <p>[8]<Link to="https://publishoa.com/index.php/journal/article/view/661">K. K. Baseer, M. Jahir Pasha, A. V Rama, K. Reddy, K. Rekha, and M. S. Begum, “Smart online examination monitoring system,” publishoa.comKK Baseer, MJ Pasha, AVRK Reddy, K Rekha, MS BegumJournal of Algebraic Statistics, 2022•publishoa.com, vol. 13, no. 3, pp. 559–570, 2022, Accessed: Jul. 16, 2024. [Online]. Available: 
+            </Link></p>
+            <p>[9]<Link to="https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2096">D. C. Ison, “Detection of Online Contract Cheating through Stylometry: A Pilot Study.,” Online Learning, vol. 24, no. 2, pp. 142–165, Jun. 2020</Link></p>
+            <p>[10]<Link to="www.aitp-edsig.org/www.isedj.org">L. Z. Bain, “How Students Use Technology to Cheat and What Faculty Can Do About It,” Information Systems Education Journal (ISEDJ), no. 5, p. 13, 2015, Accessed: Jun. 20, 2024. [Online].</Link></p>
+            <p>[11]<Link to="10.1007/S10805-021-09413-5">M. Amzalag, N. Shapira, and N. Dolev, “Two Sides of the Coin: Lack of Academic Integrity in Exams During the Corona Pandemic, Students’ and Lecturers’ Perceptions,” Journal of Academic Ethics, vol. 20, no. 2, p. 243, Jun. 2022.</Link></p>
+
             </div>
           </div>
         </div>

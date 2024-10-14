@@ -152,6 +152,14 @@ function InLabCollusion() {
                 </Link>
               </p>
               <p>
+                [2]{" "}
+                <Link to="https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html">
+                  “StartSmart,” tr.uow.edu.au.
+                  https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html
+                  ‌
+                </Link>
+              </p>
+              <p>
                 [3]{" "}
                 <Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9193284/">
                   A. Coutts, “Identifying communication spillovers in
@@ -162,21 +170,14 @@ function InLabCollusion() {
               </p>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
-              <p>
-                [2]{" "}
-                <Link to="https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html">
-                  “StartSmart,” tr.uow.edu.au.
-                  https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html
-                  ‌
-                </Link>
-              </p>
-              [4]{" "}
+             
+              <p>[4]{" "}
               <Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9193284/">
                 A. Coutts, “Identifying communication spillovers in
                 lab-in-the-field experiments,” Journal of Development Economics,
                 vol. 157, p. 102845, Jun. 2022, doi:
                 https://doi.org/10.1016/j.jdeveco.2022.102845. ‌
-              </Link>
+              </Link></p>
               <p>[5]<Link to="https://doi.org/10.1145/3478431.3499420.">Vykopal, J., Valdemar Švábenský, Seda, P. and Pavel Čeleda (2022). Preventing Cheating in Hands-on Lab Assignments. Proceedings of the 53rd ACM Technical Symposium on Computer Science Education.</Link></p>
             </div>
           </div>

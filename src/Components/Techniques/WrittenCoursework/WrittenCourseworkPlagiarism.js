@@ -85,7 +85,9 @@ function WrittenCourseworkPlagiarism() {
         <p>
           Adversaries in academic environments, typically students, may engage
           in plagiarism to pass off another's work as their own during
-          assignments and assessments. This technique involves the unauthorized
+          assignments and assessments <Link to="https://www.academia.edu/download/6409000/Plagiarism_among_university_students.pdf"><sup>[5]</sup></Link>
+        <Link to="https://www.researchgate.net/publication/373719345_Research_Integrity_Ethics_Scientific_Misconduct"> <sup>[6]</sup></Link>
+. This technique involves the unauthorized
           use and submission of content created by others, which can range from
           direct copying of text to inadequate citation of sources
           <Link to="https://www.grammarly.com/blog/types-of-plagiarism/">
@@ -144,7 +146,7 @@ function WrittenCourseworkPlagiarism() {
                     {" "}
                     [3]
                   </Link>
-                </sup>{" "}
+                </sup>{" "} <sup><Link to="https://www.tandfonline.com/doi/full/10.1080/14703297.2023.2190148#d1e252">[4]</Link></sup>
                 These educational sessions can play a crucial role in resolving
                 misunderstandings and promoting a consistent understanding
                 within the academic community. It is beneficial to provide
@@ -168,7 +170,7 @@ function WrittenCourseworkPlagiarism() {
               <td>Create original and multipart assignments</td>
               <td>
                 {" "}
-                Design assignments that are unique and have multiple components,
+                Design assignments that are unique and have multiple components,<sup><Link to="https://www.tandfonline.com/doi/full/10.1080/14703297.2023.2190148#d1e252">[4]</Link></sup>
                 making it difficult for students to find pre-written responses
                 <sup>
                   {" "}
@@ -244,6 +246,7 @@ function WrittenCourseworkPlagiarism() {
                 Using software like Turnitin, which checks submitted work
                 against a massive database of academic works, web pages, and
                 student papers, to identify potential plagiarism{" "}
+                <sup><Link to="https://www.tandfonline.com/doi/full/10.1080/14703297.2023.2190148#d1e252">[4]</Link></sup>
                 <sup>
                   <Link to="https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/writing/preventplagiarism.html">
                     [2]
@@ -263,41 +266,51 @@ function WrittenCourseworkPlagiarism() {
       </div>
 
       <div className="references">
-        <div className="container-fluid">
-          <div className="row">
-            <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+  <div className="container-fluid">
+    <div className="row">
+      <h2>References</h2>
+      <div className="col-sm-12 col-md-6" style={{ textAlign: "left" }}>
+        <p>
+          [1]{" "}
+          <Link to ="https://www.grammarly.com/blog/types-of-plagiarism/">
+            “7 Common Types of Plagiarism, With Examples,” 7 Common Types of
+            Plagiarism, With Examples | Grammarly Blog, Jun. 02, 2022.
+          </Link>
+        </p>
+        <p>
+          [2]{" "}
+          <Link to="https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/writing/preventplagiarism.html">
+            “How to prevent plagiarism - Eberly Center - Carnegie Mellon
+            University.”
+          </Link>
+        </p>
+        <p>
+          [3]{" "}
+          <Link to="https://economicsnetwork.ac.uk/handbook/printable/plagiarism_he.pdf">
+            C. Cortinhas, “Detection and Prevention of Plagiarism in Higher
+            Education.”
+          </Link>
+        </p>
+      </div>
+      <div className="col-sm-12 col-md-6" style={{ textAlign: "left" }}>
+       
+        <p>
+          [4]{" "}
+          <Link to="https://www.tandfonline.com/doi/full/10.1080/14703297.2023.2190148#d1e252">
+            D. R. E. Cotton, P. A. Cotton, and J. R. Shipway, “Chatting and
+            cheating: Ensuring academic integrity in the era of ChatGPT,”
+            Innovations in Education and Teaching International, vol. 61, no. 2,
+            pp. 228–239.
+          </Link>
+        </p>
+        <p>[5]<Link to="https://www.academia.edu/download/6409000/Plagiarism_among_university_students.pdf">B. S.-J. of NELTA and undefined 2007, “Plagiarism among university students: Intentional or accidental,” academia.edu, Accessed: Jun. 20, 2024. [Online].</Link></p>
+        <p>[6]<Link to="https://www.researchgate.net/publication/373719345_Research_Integrity_Ethics_Scientific_Misconduct">“(PDF) Research Integrity & Ethics Scientific Misconduct.” Accessed: Jun. 20, 2024. [Online].</Link></p>
 
-              <p>
-                [1]{" "}
-                <Link to="https://www.grammarly.com/blog/types-of-plagiarism/">
-                  “7 Common Types of Plagiarism, With Examples,” 7 Common Types
-                  of Plagiarism, With Examples | Grammarly Blog, Jun. 02, 2022.
-                  https://www.grammarly.com/blog/types-of-plagiarism/
-                </Link>
-              </p>
-              <p>
-                [2]{" "}
-                <Link to="https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/writing/preventplagiarism.html">
-                  “How to prevent plagiarism - Eberly Center - Carnegie Mellon
-                  University.”https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/writing/preventplagiarism.html
-                </Link>
-              </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6 " style={{ textAlign: "left" }}>
-              <p>
-                [3]{" "}
-                <Link to="https://economicsnetwork.ac.uk/handbook/printable/plagiarism_he.pdf">
-                  C. Cortinhas, “Detection and Prevention of Plagiarism in
-                  Higher Education.” Available:https://economicsnetwork.ac.uk/handbook/printable/plagiarism_he.pdf
-                </Link>
-              </p>
-      
-            </div>
-          </div>
-        </div>
       </div>
     </div>
+  </div>
+</div>
+</div>
   );
 }
 export default WrittenCourseworkPlagiarism;
