@@ -43,7 +43,7 @@ function ProgrammableCalculator() {
           </thead>
           <tbody>
             <tr>
-              <td>M002</td>
+              <td>M1053</td>
               <td>Calculator Provision </td>
               <td>
                 Offer students approved calculators on the day of the exam to
@@ -70,7 +70,7 @@ function ProgrammableCalculator() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
+              <td>D1041</td>
               <td>Calculator Verification </td>
               <td>
                 Check each calculator before the exam to ensure it is an
@@ -83,14 +83,7 @@ function ProgrammableCalculator() {
                 .
               </td>
             </tr>
-            <tr>
-              <td>D002</td>
-              <td>Random Inspection</td>
-              <td>
-                Perform random checks where students are required to reset their
-                calculators to factory settings under supervision.
-              </td>
-            </tr>
+          
           </tbody>
         </table>
       </div>
@@ -99,7 +92,7 @@ function ProgrammableCalculator() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://topspygadgets.com/product-category/exam-cheat-calculators/">
@@ -115,7 +108,7 @@ function ProgrammableCalculator() {
                 ‌
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [3]{" "}
                 <Link to="https://academia.stackexchange.com/questions/99417/how-to-prevent-students-from-using-modified-calculators-to-cheat-on-exams">

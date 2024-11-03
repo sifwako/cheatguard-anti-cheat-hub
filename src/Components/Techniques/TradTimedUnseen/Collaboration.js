@@ -6,7 +6,7 @@ function Collaboration() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Collaboration</h1>
+      <h1>T1011: Collaboration</h1>
 
       <div className="description">
         <p>
@@ -18,6 +18,12 @@ function Collaboration() {
               [1]
             </Link>
           </sup>
+          <sup>
+            <Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">
+              [7]
+            </Link>
+          </sup>
+
           . This cheating technique is often tempted by the assumption that
           students will have independently reviewed the entire curriculum, thus
           exams tend to focus on broader knowledge and understanding. When exams
@@ -25,7 +31,7 @@ function Collaboration() {
           encourage students to collaborate as a means to cover more content
           with less individual effort. Collaboration during exams can involve
           signaling answers, sharing written notes, or even digital
-          communication if monitoring is poor.
+          communication such as using chatbots<sup><Link to="https://delta.tudelft.nl/en/article/texting-using-during-exams-new-ways-cheating-during-crisis">[9]</Link></sup> if monitoring is poor<sup><Link to="https://edusson.com/blog/49-ways-to-cheat-on-college">[8]</Link></sup>.
         </p>
       </div>
 
@@ -39,7 +45,7 @@ function Collaboration() {
           </thead>
           <tbody>
             <tr>
-              <td>M1030</td>
+              <td>M1045</td>
               <td>Test Question Randomization</td>
               <td>
                 Utilize test question randomization to ensure each student
@@ -70,7 +76,7 @@ function Collaboration() {
           </thead>
           <tbody>
             <tr>
-              <td>D1031</td>
+              <td>D1034</td>
               <td>Digital Monitoring Tools </td>
               <td>
                 Use advanced digital tools that can monitor and log students'
@@ -99,7 +105,7 @@ function Collaboration() {
               </td>
             </tr>
             <tr>
-              <td>D1032</td>
+              <td>D1035</td>
               <td>Post-Examination Reviews</td>
               <td>
                 Conduct random interviews or ask follow-up questions post-exam
@@ -119,14 +125,12 @@ function Collaboration() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://camosun.libguides.com/academicintegrity/collaborationvscollusion#s-lg-box-16303355">
                   P. Scott, “Research guides: Academic Integrity Course:
                   Collaboration vs. collusion,” camosun.libguides.com.
-                  https://camosun.libguides.com/academicintegrity/collaborationvscollusion#s-lg-box-16303355
-                  (accessed May 10, 2024).
                 </Link>
               </p>
               <p>
@@ -134,31 +138,26 @@ function Collaboration() {
                 <Link to="https://www.taotesting.com/blog/how-test-question-randomization-improves-exam-integrity/">
                   S. Leonard, “How Test Question Randomization Improves Exam
                   Integrity,” TAO, Jun. 28, 2023.
-                  https://www.taotesting.com/blog/how-test-question-randomization-improves-exam-integrity/
-                  (accessed May 10, 2024).‌
                 </Link>
               </p>
               <p>
                 [3]{" "}
                 <Link to="https://proctorio.com/">
                   “A Comprehensive Learning Integrity Platform - Proctorio,”
-                  proctorio.com. https://proctorio.com/‌
+                  proctorio.com.
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
                 [4]{" "}
                 <Link to="https://www.examity.coma/">
                   “Online proctoring on your terms.,” Examity.
-                  https://www.examity.com/
                 </Link>
               </p>
               <p>
                 [5]{" "}
                 <Link to="https://www.proctoru.com/">
                   “ProctorU - The Leading Proctoring Solution for Online Exams,”
-                  ProctorU, 2018. https://www.proctoru.com/
+                  ProctorU, 2018. 
                 </Link>
               </p>
               <p>
@@ -166,9 +165,15 @@ function Collaboration() {
                 <Link to="https://youtu.be/WiB6WXUT8pc">
                   “Detecting and Investigating Contract Cheating Cases and
                   Supporting Students Through the Process,” www.youtube.com.
-                  https://youtu.be/WiB6WXUT8pc (accessed May 10, 2024).‌
                 </Link>
               </p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+            
+              
+              <p>[7]<Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8898996/">F. Noorbehbahani, A. Mohammadi, and M. Aminazadeh, “A systematic review of research on cheating in online exams from 2010 to 2021,” Educ Inf Technol (Dordr), vol. 27, no. 6, p. 8413, Jul. 2022.</Link></p>
+            <p>[8]<Link to="https://edusson.com/blog/49-ways-to-cheat-on-college">“49 Ways To Cheat on a College | Edusson Blog.” Accessed: Sep. 21, 2024. [Online]. </Link></p>
+            <p>[9]<Link to="https://delta.tudelft.nl/en/article/texting-using-during-exams-new-ways-cheating-during-crisis">HOP      Hoger Onderwijs Persbureau Do you have a question or comment about this article?redactie@hogeronderwijspersbureau.nl, & Persbureau, H. H. O. (2020, June 26). Texting using during exams: New ways of cheating during the crisis. Delta.</Link></p>
             </div>
           </div>
         </div>

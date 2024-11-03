@@ -8,7 +8,7 @@ function OutsourcingAssessments() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>OutSourcing Assessments</h1>
+      <h1>T1006: OutSourcing Assessments</h1>
       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
@@ -29,7 +29,7 @@ function OutsourcingAssessments() {
               <tr>
                 <td>
                   <Link to="/essay-mills" className="dropdown-item">
-                    T1001.001
+                    T1006.001
                   </Link>
                 </td>
                 <td>
@@ -41,7 +41,7 @@ function OutsourcingAssessments() {
               <tr>
                 <td>
                   <Link to="/friends-families" className="dropdown-item">
-                  T1001.002
+                  T1006.002
                   </Link>
                 </td>
                 <td>
@@ -56,7 +56,7 @@ function OutsourcingAssessments() {
                     to="/previously-submitted-assignments"
                     className="dropdown-item"
                   >
-                    T1001.003
+                    T1006.003
                   </Link>
                 </td>
                 <td>
@@ -107,16 +107,16 @@ function OutsourcingAssessments() {
           </thead>
           <tbody>
             <tr>
-              <td>M1009</td>
-              <td>Improved Assessment Design</td>
+              <td>M1026</td>
+              <td>Improved Assessment Design <sup><Link to="https://www.timeshighereducation.com/campus/assessment-tasks-minimise-students-motivation-cheat">[7]</Link></sup></td>
               <td>
                 Create assessments that require unique, personalized responses
                 or analyses of recent events, which are more resistant to being
-                outsourced from essay mills.
+                outsourced from essay mills <sup><Link to="https://www.tandfonline.com/doi/full/10.1080/14703297.2023.2190148#d1e252">[13]</Link></sup>. 
               </td>
             </tr>
             <tr>
-              <td>M1010</td>
+              <td>M1027</td>
               <td>Increased Support and Resources</td>
               <td>
                 Provide ample academic support through consultations, writing
@@ -144,12 +144,12 @@ function OutsourcingAssessments() {
           </thead>
           <tbody>
             <tr>
-              <td>D1007</td>
-              <td>Authorship Analysis</td>
+              <td>D1018</td>
+              <td>Authorship Analysis <sup><Link to="https://intapi.sciendo.com/pdf/10.2478/seeur-2022-0100#:~:text=Authorship%20Analysis%20(AA)%20is%20a,authorship%20profiling%2C%20and%20authorship%20verification.">[9]</Link></sup></td>
               <td>
                 Utilize sophisticated text analysis tools that employ natural
                 language processing (NLP) to analyze the writing style of
-                coursework submissions. These tools can detect deviations from a
+                coursework submissions<sup><Link to="https://www.researchgate.net/publication/270282275_Plagiarism_detection_algorithm_using_natural_language_processing_based_on_grammar_analyzing">[8]</Link></sup>. These tools can detect deviations from a
                 student’s usual writing pattern, suggesting the involvement of a
                 third-party writer. By comparing submissions against a student's
                 previous works, these tools can identify inconsistencies in
@@ -157,7 +157,7 @@ function OutsourcingAssessments() {
               </td>
             </tr>
             <tr>
-              <td>D1008</td>
+              <td>D1019</td>
               <td>Language Inconsistency</td>
               <td>
                 Monitor assignments for inconsistent language use, which may
@@ -168,10 +168,13 @@ function OutsourcingAssessments() {
                     [1]
                   </Link>
                 </sup>
+                <sup><Link to="https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2096">[10]</Link></sup>
+                <sup><Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0021-6">[11]</Link></sup>
+                <sup><Link to="https://www.researchgate.net/publication/333672143_Investigating_Writing_Style_Development_in_High_School">[12]</Link></sup>
               </td>
             </tr>
             <tr>
-              <td>D1009</td>
+              <td>D1020</td>
               <td>Misuse of Assignment Directions</td>
               <td>
                 Identify submissions that fail to specifically address the
@@ -185,7 +188,7 @@ function OutsourcingAssessments() {
               </td>
             </tr>
             <tr>
-              <td>D1010</td>
+              <td>D1021</td>
               <td>Reference Misrepresentation and Bibliographic 'Mashups'</td>
               <td>
                 Scrutinize bibliographies for inaccuracies and fabrication, such
@@ -212,7 +215,7 @@ function OutsourcingAssessments() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1] <Link to="https://ro.uow.edu.au/cgi/viewcontent.cgi?article=1441&context=gsbpapers&httpsredir=1&referer=">
                   A. Rogerson, “Detecting the work of essay mills and file
@@ -236,8 +239,6 @@ function OutsourcingAssessments() {
                   mypaperhelp.com.
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
                 [4]{" "}
                 <Link to="https://www.chegg.com/">
@@ -261,6 +262,20 @@ function OutsourcingAssessments() {
                   2015. ‌
                 </Link>
               </p>
+              <p>[7]<Link to="https://www.timeshighereducation.com/campus/assessment-tasks-minimise-students-motivation-cheat">Assessment tasks that minimise students’ motivation to cheat. (2023c, July 11). THE Campus Learn, Share, Connect.</Link></p>
+
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6"style={{ textAlign: "left" }}>
+             
+              <p>[8]<Link to='https://www.researchgate.net/publication/270282275_Plagiarism_detection_algorithm_using_natural_language_processing_based_on_grammar_analyzing'>R. Adam, “PLAGIARISM DETECTION ALGORITHM USING NATURAL LANGUAGE PROCESSING BASED ON GRAMMAR ANALYZING,” 2014.</Link></p>
+              <p>[9]<Link to="https://doi.org/10.2478/seeur-2022-0100">Misini, A., Kadriu, A., & Canhasi, E. (2022b). A survey on authorship analysis Tasks and techniques. SEEU Review, 17(2), 153–167.</Link></p>
+              <p>[10]<Link to="https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2096">D. C. Ison, “Detection of Online Contract Cheating through Stylometry: A Pilot Study.,” Online Learning, vol. 24, no. 2, pp. 142–165, Jun. 2020</Link></p>
+              <p>[11]<Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0021-6">A. M. Rogerson, “Detecting contract cheating in essay and report submissions: Process, patterns, clues and conversations,” International Journal for Educational Integrity, vol. 13, no. 1, Nov. 2017</Link></p>
+              <p>[12]<Link to="https://www.researchgate.net/publication/333672143_Investigating_Writing_Style_Development_in_High_School">S. Lorenzen, N. Hjuler, and S. Alstrup, “Investigating Writing Style Development in High School,” Educational Data Mining, 2019.</Link></p>
+              <p>[13]<Link to="https://www.tandfonline.com/doi/full/10.1080/14703297.2023.2190148#d1e252">D. R. E. Cotton, P. A. Cotton, and J. R. Shipway, “Chatting and
+            cheating: Ensuring academic integrity in the era of ChatGPT,”
+            Innovations in Education and Teaching International, vol. 61, no. 2,
+            pp. 228–239.</Link></p>
             </div>
           </div>
         </div>

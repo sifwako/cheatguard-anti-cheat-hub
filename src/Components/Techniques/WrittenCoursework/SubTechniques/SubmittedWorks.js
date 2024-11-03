@@ -38,7 +38,7 @@ function Submittedworks() {
           </thead>
           <tbody>
             <tr>
-              <td>M1014</td>
+              <td>M1031</td>
               <td>Pre-Assessment Online Verification</td>
               <td>
                 Before distributing the assessment, course instructors are
@@ -73,7 +73,8 @@ function Submittedworks() {
           <tbody>
             <tr>
               <td>D1018</td>
-              <td>Plagiarism Detection Software</td>
+              <td>Plagiarism Detection Software<sup><Link to="https://www.turnitin.com/">[3]</Link></sup>
+              </td>
               <td>
                 Tools like Turnitin are essential in identifying not only
                 outright plagiarism from external sources but also instances
@@ -91,7 +92,7 @@ function Submittedworks() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link>
@@ -99,8 +100,6 @@ function Submittedworks() {
                   used,” Penn state mark reverse.{" "}
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
                 [2]{" "}
                 <Link to="https://www.hw.ac.uk/uk/services/docs/academic-registry/contractcheating-staffguide.pdf">
@@ -108,6 +107,10 @@ function Submittedworks() {
                   Contract cheating detection and reporting: A staff guide.{" "}
                 </Link>
               </p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://www.turnitin.com/">Turnitin. (n.d.). Plagiarism Detector: Prevent Academic Misconduct | Turnitin.</Link></p>
+
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function AccessingQuestionsBeforeExam() {
   return (
     <div className="app-container">
-      <h1>Accessing Questions Before Exam</h1>
+      <h1>T1013: Accessing Questions Before Exam</h1>
       <div className="description">
         <p>
           In unseen examinations, where the exam content is supposed to be
@@ -46,7 +46,7 @@ function AccessingQuestionsBeforeExam() {
           </thead>
           <tbody>
             <tr>
-              <td>M1034</td>
+              <td>M1058</td>
               <td>Physical Security </td>
               <td>
                 Enhance security where physical copies are stored, such as using
@@ -72,17 +72,8 @@ function AccessingQuestionsBeforeExam() {
               </td>
             </tr>
             <tr>
-              <td>M1035</td>
-              <td>Regular Policy Review</td>
-              <td>
-                Continuously update policies regarding the handling and
-                distribution of exam materials. Schedule annual reviews of
-                security policies and adjust based on the latest security trends
-              </td>
-            </tr>
-            <tr>
-              <td>M1036</td>
-              <td>Randomization</td>
+              <td>M1060</td>
+              <td>Unique Question Sets</td>
               <td>
                 Use randomization techniques to create multiple versions of the
                 exam with different question orders or answer choices
@@ -109,17 +100,7 @@ function AccessingQuestionsBeforeExam() {
           </thead>
           <tbody>
             <tr>
-              <td>D1035</td>
-              <td>Regular System Audits </td>
-              <td>
-                Regularly audit the IT systems used for exam preparation and
-                distribution to identify vulnerabilities, ensure compliance with
-                security standards, and enhance overall security in online
-                exams.
-              </td>
-            </tr>
-            <tr>
-              <td>D1036</td>
+              <td>D1049</td>
               <td>Whistleblower Policies</td>
               <td>
                 Encourage reporting of unethical behavior with protection for
@@ -141,7 +122,7 @@ function AccessingQuestionsBeforeExam() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6"style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.testportal.net/en/guides/online-test-cheating/ways-to-cheat-on-an-online-test/">
@@ -168,7 +149,7 @@ function AccessingQuestionsBeforeExam() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [4]{" "}
                 <Link to="https://tlconestoga.ca/preventing-cheating-on-paper-based-exams/">

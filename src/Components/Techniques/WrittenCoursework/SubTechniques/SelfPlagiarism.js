@@ -30,7 +30,7 @@ function SelfPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>M1007</td>
+              <td>M1024</td>
               <td>Clear Institutional Policiesx</td>
               <td>
                 {" "}
@@ -54,7 +54,7 @@ function SelfPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>M1008</td>
+              <td>M1025</td>
               <td>Citation Requirements </td>
               <td>
                 Mandate that all students cite their previous academic works in
@@ -88,7 +88,7 @@ function SelfPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>D1005</td>
+              <td>D1016</td>
               <td> Submission Database Checks</td>
               <td>
                 Check submissions against a database of the student's previous
@@ -109,7 +109,7 @@ function SelfPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>D1006</td>
+              <td>D1017</td>
               <td>Disclosure Requirements</td>
               <td>
                 Students should be required to disclose if their current work
@@ -135,7 +135,7 @@ function SelfPlagiarism() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]
                 <Link to="https://oai.missouri.edu/students/self-plagiarism/">
@@ -151,7 +151,7 @@ function SelfPlagiarism() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [3]
                 <Link to="https://www.cwauthors.com/article/WhatIsSelf-Plagiarism">

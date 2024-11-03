@@ -6,7 +6,7 @@ function CreativeIntegrityBreach() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Creative Integrity Breach</h1>
+      <h1>T1010: Creative Integrity Breach</h1>
       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
@@ -27,7 +27,7 @@ function CreativeIntegrityBreach() {
               <tr>
                 <td>
                   <Link to="/idea-theft" className="dropdown-item">
-                    T1005.001
+                    T1010.001
                   </Link>
                 </td>
                 <td>
@@ -77,7 +77,7 @@ function CreativeIntegrityBreach() {
           </thead>
           <tbody>
             <tr>
-              <td>M1028</td>
+              <td>M1043</td>
               <td>Process Documentation</td>
               <td>
                 Require students to provide comprehensive documentation of their
@@ -93,7 +93,7 @@ function CreativeIntegrityBreach() {
               </td>
             </tr>
             <tr>
-              <td>M1029</td>
+              <td>M1044</td>
               <td>Educational Initiatives and Clear Guidelines</td>
               <td>
                 Educate students on the ethical implications, legal aspects, and
@@ -125,7 +125,7 @@ function CreativeIntegrityBreach() {
           </thead>
           <tbody>
             <tr>
-              <td>D1029</td>
+              <td>D1032</td>
               <td>Similarity Detection Software </td>
               <td>
                 Use advanced technology tools like Shazam
@@ -155,8 +155,8 @@ function CreativeIntegrityBreach() {
               </td>
             </tr>
             <tr>
-              <td>D1030</td>
-              <td>Assessment Design</td>
+              <td>D1033</td>
+              <td>Assessment Design <sup><Link to="https://www.aishe.org/wp-content/uploads/2022/09/oneill2007case.pdf">[7]</Link></sup></td>
               <td>
                 Design assessments that require students to demonstrate their
                 creative process and final outputs through viva voce or
@@ -172,13 +172,21 @@ function CreativeIntegrityBreach() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.teqsa.gov.au/guides-resources/resources/sector-updates-and-alerts/academic-integrity-creative-arts">
                   “Academic integrity in the creative arts | Tertiary Education
                   Quality and Standards Agency,” Teqsa.gov.au, Jun. 20, 2022.
                   https://www.teqsa.gov.au/guides-resources/resources/sector-updates-and-alerts/academic-integrity-creative-arts{" "}
+                </Link>
+              </p>
+              <p>
+                {" "}
+                [2]{" "}
+                <Link to="https://files.eric.ed.gov/fulltext/ED621563.pdf">
+                  “Academic integrity in the creative arts,” 2022. Available:
+                  https://files.eric.ed.gov/fulltext/ED621563.pdf ‌
                 </Link>
               </p>
               <p>
@@ -190,6 +198,17 @@ function CreativeIntegrityBreach() {
               </p>
               <p>
                 {" "}
+                [4]{" "}
+                <Link to="https://images.google.com/">
+                  Google, “Google Images,” Google.com, Jul. 12, 2001.
+                  https://images.google.com/ ‌
+                </Link>
+              </p>
+           
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+            <p>
+                {" "}
                 [5]{" "}
                 <Link to="https://codequiry.com/">
                   “Code Plagiarism & Similarity Checker — Codequiry,”
@@ -197,24 +216,7 @@ function CreativeIntegrityBreach() {
                   ‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                {" "}
-                [2]{" "}
-                <Link to="https://files.eric.ed.gov/fulltext/ED621563.pdf">
-                  “Academic integrity in the creative arts,” 2022. Available:
-                  https://files.eric.ed.gov/fulltext/ED621563.pdf ‌
-                </Link>
-              </p>
-              <p>
-                {" "}
-                [4]{" "}
-                <Link to="https://images.google.com/">
-                  Google, “Google Images,” Google.com, Jul. 12, 2001.
-                  https://images.google.com/ ‌
-                </Link>
-              </p>
+            
               <p>
                 {" "}
                 [6]
@@ -223,6 +225,7 @@ function CreativeIntegrityBreach() {
                   https://theory.stanford.edu/~aiken/moss/ ‌
                 </Link>
               </p>
+              <p>[7]<Link to="https://www.aishe.org/wp-content/uploads/2022/09/oneill2007case.pdf.">O'neill, G. (n.d.). Case Studies of Good Practices in Assessment of Student Learning in Higher Education. [online]</Link></p>
             </div>
           </div>
         </div>

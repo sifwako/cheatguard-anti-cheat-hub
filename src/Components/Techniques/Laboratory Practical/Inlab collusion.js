@@ -7,7 +7,7 @@ function InLabCollusion() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>In-Lab Collusion</h1>
+      <h1>T1009: In-Lab Collusion</h1>
       <div className="description">
         <p>
           In the context of educational settings, collusion among students
@@ -49,7 +49,7 @@ function InLabCollusion() {
           </thead>
           <tbody>
             <tr>
-              <td>M1025</td>
+              <td>M1040</td>
               <td>Unique Tasks</td>
               <td>
                 Designing laboratory assessments with unique, non-repeating
@@ -71,7 +71,7 @@ function InLabCollusion() {
               </td>
             </tr>
             <tr>
-              <td>M1026</td>
+              <td>M1041</td>
               <td>Clear Conduct Guidelines</td>
               <td>
                 Implement and enforce strict guidelines about collaboration and
@@ -86,8 +86,8 @@ function InLabCollusion() {
               </td>
             </tr>
             <tr>
-              <td>M1027</td>
-              <td>Enhanced Supervision </td>
+              <td>M1042</td>
+              <td>Enhanced Supervision <sup><Link to="https://arxiv.org/pdf/2201.01154">[5]</Link></sup></td>
               <td>
                 Increase instructor or lab assistant vigilance during
                 assessments to actively monitor student behavior and
@@ -108,7 +108,7 @@ function InLabCollusion() {
           </thead>
           <tbody>
             <tr>
-              <td>D1027</td>
+              <td>D1030</td>
               <td>Similarity Analysis </td>
               <td>
                 To identify potential collusion among students, it is important
@@ -125,8 +125,8 @@ function InLabCollusion() {
               </td>
             </tr>
             <tr>
-              <td>D1028</td>
-              <td>Random Questioning</td>
+              <td>D1031</td>
+              <td>Random Questioning <sup><Link to="https://arxiv.org/pdf/2201.01154">[5]</Link></sup></td>
               <td>
                 Conduct spontaneous oral questioning during the lab to assess
                 whether students understand the work they are submitting, which
@@ -141,7 +141,7 @@ function InLabCollusion() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://iopscience.iop.org/article/10.1088/1742-6596/1065/21/212001/pdf">
@@ -149,6 +149,14 @@ function InLabCollusion() {
                   proficiency testing,” Journal of physics. Conference series,
                   vol. 1065, pp. 212001–212001, Aug. 2018, doi:
                   https://doi.org/10.1088/1742-6596/1065/21/212001. ‌
+                </Link>
+              </p>
+              <p>
+                [2]{" "}
+                <Link to="https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html">
+                  “StartSmart,” tr.uow.edu.au.
+                  https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html
+                  ‌
                 </Link>
               </p>
               <p>
@@ -161,23 +169,16 @@ function InLabCollusion() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                [2]{" "}
-                <Link to="https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html">
-                  “StartSmart,” tr.uow.edu.au.
-                  https://tr.uow.edu.au/uow/file/abad43f2-b322-41a7-bcf0-967683883672/5/resources/module_1_misconduct.html
-                  ‌
-                </Link>
-              </p>
-              [4]{" "}
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+             
+              <p>[4]{" "}
               <Link to="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9193284/">
                 A. Coutts, “Identifying communication spillovers in
                 lab-in-the-field experiments,” Journal of Development Economics,
                 vol. 157, p. 102845, Jun. 2022, doi:
                 https://doi.org/10.1016/j.jdeveco.2022.102845. ‌
-              </Link>
-              <p></p>
+              </Link></p>
+              <p>[5]<Link to="https://doi.org/10.1145/3478431.3499420.">Vykopal, J., Valdemar Švábenský, Seda, P. and Pavel Čeleda (2022). Preventing Cheating in Hands-on Lab Assignments. Proceedings of the 53rd ACM Technical Symposium on Computer Science Education.</Link></p>
             </div>
           </div>
         </div>

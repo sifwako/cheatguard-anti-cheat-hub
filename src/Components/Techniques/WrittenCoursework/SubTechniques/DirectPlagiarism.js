@@ -42,7 +42,7 @@ function DirectPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>M1005</td>
+              <td>M1022</td>
               <td>Citation Training</td>
               <td>
                 Incorporate lessons on proper citation techniques and the
@@ -71,7 +71,7 @@ function DirectPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>D1003</td>
+              <td>D1014</td>
               <td>Exact Match Identification</td>
               <td>
                 Employ plagiarism scanners that highlight verbatim copied texts
@@ -93,7 +93,7 @@ function DirectPlagiarism() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.grammarly.com/blog/types-of-plagiarism/">
@@ -115,7 +115,7 @@ function DirectPlagiarism() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [4]
                 <Link to="https://www.duplichecker.com/">

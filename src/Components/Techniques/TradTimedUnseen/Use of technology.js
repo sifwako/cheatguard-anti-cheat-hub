@@ -7,7 +7,7 @@ function UseofTechnology() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Use of Technology</h1>
+      <h1>T1012: Use of Technology</h1>
       <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
@@ -31,7 +31,7 @@ function UseofTechnology() {
                     to="/screen-sharing-and-remote-control"
                     className="dropdown-item"
                   >
-                    T1006.100
+                    T1012.100
                   </Link>
                 </td>
                 <td>
@@ -46,7 +46,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/virtual-machines" className="dropdown-item">
-                  T1006.101
+                  T1012.101
                   </Link>
                 </td>
                 <td>
@@ -58,7 +58,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/wearable-devices" className="dropdown-item">
-                  T1006.102
+                  T1012.102
                   </Link>
                 </td>
                 <td>
@@ -70,7 +70,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/programmable-calculator" className="dropdown-item">
-                  T1006.103
+                  T1012.103
                   </Link>
                 </td>
                 <td>
@@ -82,7 +82,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/bluetooth-earphones" className="dropdown-item">
-                  T1006.104
+                  T1012.104
                   </Link>
                 </td>
                 <td>
@@ -97,7 +97,7 @@ function UseofTechnology() {
                     to="/hdmi-cable-screen-sharing"
                     className="dropdown-item"
                   >
-                    T1006.105
+                    T1012.105
                   </Link>
                 </td>
                 <td>
@@ -112,7 +112,7 @@ function UseofTechnology() {
               <tr>
                 <td>
                   <Link to="/phones" className="dropdown-item">
-                  T1006.106
+                  T1012.106
                   </Link>
                 </td>
                 <td>
@@ -144,7 +144,7 @@ function UseofTechnology() {
           </sup>
           . This type of cheating exploits the functionality of these devices to
           illicitly gain access to information, store answers, or facilitate
-          communication with others during tests. The discrete nature and
+          communication with others during tests<sup><Link to="www.aitp-edsig.org/www.isedj.org">[10]</Link></sup><sup><Link to="10.1007/S10805-021-09413-5">[11]</Link></sup>. The discrete nature and
           ubiquitous presence of these technologies in students’ lives make them
           particularly challenging to detect and manage within an examination
           setting. <br />
@@ -167,7 +167,7 @@ function UseofTechnology() {
           </thead>
           <tbody>
             <tr>
-              <td>M1031</td>
+              <td>M1046</td>
               <td>Prohibition of Electronic Devices </td>
               <td>
                 Educational institutions should strictly prohibit the use of
@@ -184,10 +184,10 @@ function UseofTechnology() {
               </td>
             </tr>
             <tr>
-              <td>M1032</td>
+              <td>M1047</td>
               <td>Vigilant Monitoring </td>
               <td>
-                Increase physical monitoring by employing trained examiners who
+                Increase physical monitoring by employing trained examiners <sup><Link  to="https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2096">[9]</Link></sup> who
                 are adept at identifying the use of unauthorized devices. Random
                 checks conducted by teachers and administrators before and
                 during exams further assist in detecting and deterring the use
@@ -203,15 +203,15 @@ function UseofTechnology() {
               </td>
             </tr>
             <tr>
-              <td>M1033</td>
-              <td>Secure Testing Environments </td>
+              <td>M1048</td>
+              <td>Secure Testing Environments <sup><Link to="https://synap.ac/blog/anti-cheat-methods-for-online-exams/">[6]</Link></sup></td>
               <td>
                 Educational institutions can implement testing environments that
                 utilize software to restrict the capabilities of permitted
                 electronic devices, limiting them to essential functionalities
-                necessary for the exam. This measure involves employing
+                necessary for the exam<sup><Link to="https://publishoa.com/index.php/journal/article/view/661">[8]</Link></sup>. This measure involves employing
                 detection software that identifies any irregular or suspicious
-                activity during exams.
+                activity during exams <sup><Link to="https://ijece.iaescore.com/index.php/IJECE/article/view/30268">[7]</Link></sup>.
               </td>
             </tr>
           </tbody>
@@ -228,7 +228,7 @@ function UseofTechnology() {
           </thead>
           <tbody>
             <tr>
-              <td>D1033</td>
+              <td>D1036</td>
               <td>Surveillance Cameras </td>
               <td>
                 Utilizing CCTV cameras to visually monitor the exam environment,
@@ -243,15 +243,6 @@ function UseofTechnology() {
                 behavior or unauthorized activities.{" "}
               </td>
             </tr>
-            <tr>
-              <td>D1034</td>
-              <td>Device Scanning </td>
-              <td>
-                Conduct random inspections of any allowed electronic devices to
-                ensure they are not pre-loaded with unauthorized information or
-                being used to access external data.{" "}
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -260,7 +251,7 @@ function UseofTechnology() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]
                 <Link to="https://files.eric.ed.gov/fulltext/EJ1137336.pdf">
@@ -292,20 +283,27 @@ function UseofTechnology() {
                 <Link to="https://videoloft.com/cctv-for-schools/">
                   A. Pearson, “Educational facilities security - How to keep
                   your campus secure,” Videoloft, Dec. 09, 2020.
-                  https://videoloft.com/cctv-for-schools/ ‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
-                [4]
+                [5]
                 <Link to="https://www.techrxiv.org/users/706619/articles/691866-automatic-cheating-detection-in-exam-hall">
                   “Automatic Cheating Detection In Exam Hall - TechRxiv,”
                   www.techrxiv.org.
-                  https://www.techrxiv.org/users/706619/articles/691866-automatic-cheating-detection-in-exam-hall
-                  (accessed May 11, 2024). ‌
                 </Link>
               </p>
+              <p>[6]<Link to="https://synap.ac/blog/anti-cheat-methods-for-online-exams/">15 anti-cheating methods for online exam security - Synap - Synap Blog. (n.d.).</Link></p>
+
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+            
+              <p>[7]<Link to="https://ijece.iaescore.com/index.php/IJECE/article/view/30268">G. Moukhliss, R. F. Hilali, and H. Belhadaoui, “Intelligent solution for automatic online exam monitoring,” International Journal of Electrical and Computer Engineering, vol. 13, no. 5, pp. 5333–5341, Oct. 2023</Link></p>
+            <p>[8]<Link to="https://publishoa.com/index.php/journal/article/view/661">K. K. Baseer, M. Jahir Pasha, A. V Rama, K. Reddy, K. Rekha, and M. S. Begum, “Smart online examination monitoring system,” publishoa.comKK Baseer, MJ Pasha, AVRK Reddy, K Rekha, MS BegumJournal of Algebraic Statistics, 2022•publishoa.com, vol. 13, no. 3, pp. 559–570, 2022, Accessed: Jul. 16, 2024. [Online]. Available: 
+            </Link></p>
+            <p>[9]<Link to="https://olj.onlinelearningconsortium.org/index.php/olj/article/view/2096">D. C. Ison, “Detection of Online Contract Cheating through Stylometry: A Pilot Study.,” Online Learning, vol. 24, no. 2, pp. 142–165, Jun. 2020</Link></p>
+            <p>[10]<Link to="www.aitp-edsig.org/www.isedj.org">L. Z. Bain, “How Students Use Technology to Cheat and What Faculty Can Do About It,” Information Systems Education Journal (ISEDJ), no. 5, p. 13, 2015, Accessed: Jun. 20, 2024. [Online].</Link></p>
+            <p>[11]<Link to="10.1007/S10805-021-09413-5">M. Amzalag, N. Shapira, and N. Dolev, “Two Sides of the Coin: Lack of Academic Integrity in Exams During the Corona Pandemic, Students’ and Lecturers’ Perceptions,” Journal of Academic Ethics, vol. 20, no. 2, p. 243, Jun. 2022.</Link></p>
+
             </div>
           </div>
         </div>

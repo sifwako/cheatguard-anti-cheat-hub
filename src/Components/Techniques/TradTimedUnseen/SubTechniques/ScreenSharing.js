@@ -42,7 +42,7 @@ function ScreenSharing() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
+              <td>M1049</td>
               <td>Using Proctoring Software</td>
               <td>
                 Proctoring software, such as ProctorU
@@ -77,7 +77,7 @@ function ScreenSharing() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
+              <td>D1038</td>
               <td>Activity Tracking </td>
               <td>
                 Proctoring software commonly monitors keyboard and mouse
@@ -101,7 +101,7 @@ function ScreenSharing() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]
                 <Link to="https://www.skillrobo.com/11-ways-of-cheating-in-online-exams/">
@@ -116,9 +116,6 @@ function ScreenSharing() {
                   “TeamViewer – The Remote Connectivity Software,” TeamViewer.‌
                 </Link>
               </p>
-              <p></p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
                 [3]
                 <Link to="https://brightlinkprep.com/ways-to-cheat-on-online-exams/">
@@ -126,6 +123,9 @@ function ScreenSharing() {
                   BrightLink Prep.” ‌
                 </Link>
               </p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+            
               <p>
                 {" "}
                 [4]{" "}

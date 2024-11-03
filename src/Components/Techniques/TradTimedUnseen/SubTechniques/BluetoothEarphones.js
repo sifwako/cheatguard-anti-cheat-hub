@@ -32,8 +32,8 @@ function BluetoothEarphones() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
-              <td>Strict Proctoring </td>
+              <td>M1054</td>
+              <td>Strict Proctoring <sup><Link to="https://cellbusters.com/exam-security/">[4]</Link></sup></td>
               <td>
                 Implement strict live proctoring where proctors can ask to see
                 the student’s surroundings, including their ears and hair.
@@ -52,17 +52,9 @@ function BluetoothEarphones() {
             <td>Description</td>
           </thead>
           <tbody>
+          
             <tr>
-              <td>D001</td>
-              <td>Visual Checks</td>
-              <td>
-                Require students to show their ears at the start and at random
-                intervals during the exam via the webcam to ensure no Bluetooth
-                devices are worn
-              </td>
-            </tr>
-            <tr>
-              <td>D002</td>
+              <td>D1044</td>
               <td>Audio Monitoring</td>
               <td>
                 Use software that can detect feedback or the presence of
@@ -91,7 +83,7 @@ function BluetoothEarphones() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.proctoru.com/">
@@ -105,7 +97,10 @@ function BluetoothEarphones() {
                   “Online proctoring on your terms.,” Examity. ‌
                 </Link>
               </p>
-              <p>
+              
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6"style={{ textAlign: "left" }}>
+            <p>
                 [3]{" "}
                 <Link to=" https://proctorio.com/">
                   “A Comprehensive Learning Integrity Platform - Proctorio,”
@@ -113,8 +108,8 @@ function BluetoothEarphones() {
                 </Link>
                 ‌
               </p>
+              <p>[4]<Link to="https://cellbusters.com/exam-security/">Jackandbean. (2024, March 29). 4 Proven strategies to ensure exam security. Cellbusters. </Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6"></div>
           </div>
         </div>
       </div>

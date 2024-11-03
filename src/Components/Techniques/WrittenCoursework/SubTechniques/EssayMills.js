@@ -13,9 +13,9 @@ function EssayMills() {
           individual that contracts with students to complete academic
           assignments for a fee. By providing students with completed work that
           they can submit as their own, these services facilitate academic
-          dishonesty. Many essay mills recruit writers through bidding processes
+          dishonesty<sup><Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-021-00081-x">[7]</Link></sup>. Many essay mills recruit writers through bidding processes
           and operate for profit rather than to provide a good service to their
-          customers{" "}
+          customers. It has even reached the point where they promote their services via different platform without considering their influence on student learning experience for instance essay mill services like those found on Fiverr<sup><Link to='https://www.fiverr.com/?utm_source=google&utm_medium=cpc-brand&utm_campaign=G_FI-EN_Brand&utm_term=fiver%20site_(phrase)&utm_content=AdID^653849449874^Keyword^fiverr%20website^Placement^^Device^c&caid=417789908&agid=35165143988&ad_id=653849449874&kw=fiverr%20website&lpcat=br_general&show_join=true&gad_source=1&gclid=Cj0KCQjwvpy5BhDTARIsAHSilyn8tmGNWggPHiLqr7vzyOos5gi9cR-YZ0fVdE6SWfdqN4-NrJFjUB4aAoJfEALw_wcB'>[8]</Link></sup>.{" "}
           <sup>
             {" "}
             <Link to="https://doi.org/10.1007/s40979-021-00081-x.">[1]</Link>
@@ -43,8 +43,8 @@ function EssayMills() {
           </thead>
           <tbody>
             <tr>
-              <td>M1011</td>
-              <td>Customized Assignments</td>
+              <td>M1028</td>
+              <td>Customized Assignments <sup><Link to="https://elearning.company/blog/adaptive-assessments-and-personalized-feedback-the-future-of-education/">[5]</Link></sup></td>
               <td>
                 Designing assignments that require specific, personalized
                 responses or that are closely integrated with class discussions
@@ -53,8 +53,8 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>M1012</td>
-              <td>Oral Defenses</td>
+              <td>M1029</td>
+              <td>Oral Defenses <sup><Link to="https://www.timeshighereducation.com/campus/deter-contract-cheating-online-assessment-multipronged-approach">[6]</Link></sup></td>
               <td>
                 Implementing oral defenses where students must discuss and
                 defend their submitted work in front of instructors, helping to
@@ -75,7 +75,7 @@ function EssayMills() {
           </thead>
           <tbody>
             <tr>
-              <td>D1011</td>
+              <td>D1022</td>
               <td>Analysis of Themes and Topics</td>
               <td>
                 A submission that include general terms or topics where the
@@ -93,7 +93,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1012</td>
+              <td>D1023</td>
               <td>Template Similarity</td>
               <td>
                 Another indication is that paid sources like ‘essay mills’ often
@@ -110,7 +110,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1013</td>
+              <td>D1024</td>
               <td>Document Metadata:</td>
               <td>
                 It is also possible to reveal the original author's name or the
@@ -128,7 +128,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1014</td>
+              <td>D1025</td>
               <td>Language Analysis</td>
               <td>
                 A student who submits a work with perfect grammar and uses
@@ -147,7 +147,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1015</td>
+              <td>D1026</td>
               <td>Comparison with Previous Submissions</td>
               <td>
                 {" "}
@@ -168,7 +168,7 @@ function EssayMills() {
               </td>
             </tr>
             <tr>
-              <td>D1016</td>
+              <td>D1027</td>
               <td>Plagiarism Detection Software</td>
               <td>
                 {" "}
@@ -196,7 +196,7 @@ function EssayMills() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://doi.org/10.1007/s40979-021-00081-x.">
@@ -220,8 +220,6 @@ function EssayMills() {
                   “Contract Cheating Detection and Reporting: A Staff Guide.” ‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
               <p>
                 [4]
                 <Link to="https://doi.org/10.53761/1.6.1.6.">
@@ -231,6 +229,13 @@ function EssayMills() {
                   no. 1, pp. 57–69, Jan. 2009. ‌
                 </Link>
               </p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+             
+              <p>[5]<Link to="https://elearning.company/blog/adaptive-assessments-and-personalized-feedback-the-future-of-education/">eLearning Company Blog (2024). Adaptive Assessments and Personalized Feedback: The Future of... [online] The eLearning Blog.</Link></p>
+              <p>[6]<Link to="https://www.timeshighereducation.com/campus/deter-contract-cheating-online-assessment-multipronged-approach">Deter contract cheating in online assessment with a multi-pronged approach. (2024, July 16). THE Campus Learn, Share, Connect.</Link></p>
+              <p>[7]<Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-021-00081-x">M. Draper, T. Lancaster, S. Dann, R. Crockett, and I. Glendinning, “Essay mills and other contract cheating services: to buy or not to buy and the consequences of students changing their minds,” International Journal for Educational Integrity, vol. 17, no. 1, pp. 1–13, Dec. 2021</Link></p>
+              <p>[8]<Link to=' https://www.fiverr.com '>Fiverr | Freelance Services Marketplace | find top global talent. (n.d.).</Link></p>
             </div>
           </div>
         </div>

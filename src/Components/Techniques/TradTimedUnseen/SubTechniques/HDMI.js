@@ -47,7 +47,7 @@ function HDMI() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
+              <td>M1055</td>
               <td>HDMI Port Restrictions</td>
               <td>
                 Exam computers can be set up to disable HDMI ports or limit
@@ -62,8 +62,8 @@ function HDMI() {
               </td>
             </tr>
             <tr>
-              <td>M002</td>
-              <td>Strict Proctoring and Monitoring</td>
+              <td>M1056</td>
+              <td>Strict Proctoring and Monitoring <sup><Link to="https://www.examtesting.com/blogdetails.aspx?id=50638">[3]</Link></sup></td>
               <td>
                 Employ strict proctoring methods, including continuous
                 monitoring of students' screens, webcams, and audio, to detect
@@ -84,8 +84,8 @@ function HDMI() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
-              <td>Comprehensive Room Inspections</td>
+              <td>D1045</td>
+              <td>Comprehensive Room Inspections<sup><Link to="https://www.examtesting.com/blogdetails.aspx?id=50638">[3]</Link></sup></td>
               <td>
                 Perform detailed inspections of the exam room both before and
                 during the examination to identify any concealed devices,
@@ -100,7 +100,7 @@ function HDMI() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to=" https://brightlinkprep.com/ways-to-cheat-on-online-exams/">
@@ -118,7 +118,9 @@ function HDMI() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6"></div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://www.examtesting.com/blogdetails.aspx?id=50638">A Guide on How Online Exams are Monitored. (n.d.).</Link></p>
+            </div>
           </div>
         </div>
       </div>

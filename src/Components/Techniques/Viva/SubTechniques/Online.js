@@ -5,7 +5,7 @@ import { useState } from "react";
 function Online() {
   return (
     <div className="app-container">
-      <h1>In-Person Impersonation</h1>
+      <h1>Online Impersonation</h1>
 
       <div className="description">
         <p>
@@ -53,7 +53,7 @@ function Online() {
           </thead>
           <tbody>
             <tr>
-              <td>M1021</td>
+              <td>M1036</td>
               <td>Biometric Verification</td>
               <td>
                 Utilizing tools like Talview that employ two-factor
@@ -88,7 +88,7 @@ function Online() {
           </thead>
           <tbody>
             <tr>
-              <td>D1023</td>
+              <td>D1024</td>
               <td>Online Assessment Monitoring</td>
               <td>
                 Employing online assessment software capable of flagging unusual
@@ -105,7 +105,7 @@ function Online() {
               </td>
             </tr>
             <tr>
-              <td>D1024</td>
+              <td>D1025</td>
               <td>Keystroke Authentication</td>
               <td>
                 {" "}
@@ -133,7 +133,7 @@ function Online() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.skillrobo.com/online-assessment-cheating/">
@@ -150,7 +150,7 @@ function Online() {
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [3]
                 <Link to="https://assess.com/remote-proctoringsecurity/">

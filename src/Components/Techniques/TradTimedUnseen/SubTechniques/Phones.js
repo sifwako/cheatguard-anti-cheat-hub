@@ -35,8 +35,8 @@ function Phones() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
-              <td>Prohibition of Electronic Devices</td>
+              <td>M1057</td>
+              <td>Prohibition of Electronic Devices <sup><Link to="https://ofqual.blog.gov.uk/2023/04/18/mobile-phones-in-exams-what-malpractice-stats-show-us/">[2]</Link></sup></td>
               <td>
                 Prohibit students from having any electronic devices other than
                 the computer they are testing on. Explicitly ban cell phones,
@@ -57,20 +57,12 @@ function Phones() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
-              <td>Proctoring Software</td>
+              <td>D1046</td>
+              <td>Proctoring Software <sup><Link to="https://assess.com/remote-proctoringsecurity/">[3]</Link></sup></td>
               <td>
                 Utilizing proctoring software that can detect if students are
                 using their cell phones or other devices to access information
                 during the exam. 
-              </td>
-            </tr>
-            <tr>
-              <td>D002</td>
-              <td>Proctoring Guidelines</td>
-              <td>
-                Train proctors to specifically look for signs of students
-                interacting with devices outside of the monitored computer.
               </td>
             </tr>
           </tbody>
@@ -81,7 +73,7 @@ function Phones() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to=" https://brightlinkprep.com/ways-to-cheat-on-online-exams/">
@@ -90,8 +82,11 @@ function Phones() {
                   BrightLink Prep.”
                 </Link>
               </p>
+              <p>[2]<Link to="https://ofqual.blog.gov.uk/2023/04/18/mobile-phones-in-exams-what-malpractice-stats-show-us/">Bradley, H. (2023, April 18). Mobile phones in exams: what malpractice stats show us.</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6"></div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://assess.com/remote-proctoringsecurity/">Admin. (2024, July 3). How students cheat in online exams and how to catch them. Assessment Systems.</Link></p>
+            </div>
           </div>
         </div>
       </div>

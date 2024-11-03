@@ -43,16 +43,16 @@ function IdeaTheft() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
-              <td>Educational Workshops </td>
+              <td>M045</td>
+              <td>Educational Workshops <sup><Link to="https://pcacs.ac.in/national-level-webinar-on-ipr-copyright-and-plagiarism/">[2]</Link></sup></td>
               <td>
                 Conduct workshops and seminars on intellectual property and
                 academic honesty to increase awareness among students.
               </td>
             </tr>
             <tr>
-              <td>M002</td>
-              <td>Clear Policy Communication </td>
+              <td>M046</td>
+              <td>Clear Policy Communication <sup><Link to="https://www.skillstork.org/assets/diploma-programme/Academic%20Honesty%20and%20Integrity%20Policy.pdf">[3]</Link></sup> </td>
               <td>
                 Ensure all students understand the academic honesty policy,
                 consequences of idea theft, and the importance of citation. It
@@ -74,16 +74,16 @@ function IdeaTheft() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
-              <td>Peer Review </td>
+              <td>D034</td>
+              <td>Peer Review<sup><Link to="https://melbourne-cshe.unimelb.edu.au/__data/assets/pdf_file/0006/3590943/Involving-students-in-peer-review.pdf">4</Link></sup></td>
               <td>
                 Implement a system where peers review each other’s work for
                 potential idea theft, providing checks and balances.
               </td>
             </tr>
             <tr>
-              <td>D002</td>
-              <td>Digital Comparison Tools</td>
+              <td>D035</td>
+              <td>Digital Comparison Tools <sup><Link to="https://blog.seorocket.ai/turnitin-checker-can-it-really-detect-undetectable-ai/">[5]</Link></sup></td>
               <td>
                 Use digital tools to compare submitted assignments against a
                 database of existing works to detect similarities.
@@ -97,18 +97,15 @@ function IdeaTheft() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                [1]
-                <Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00135-2">
-                  [1]Edidiong Orok et al., “Causes and mitigation of academic
-                  dishonesty among healthcare students in a Nigerian
-                  university,” International Journal for Educational Integrity,
-                  vol. 19, no. 1, Jul. 2023. ‌
-                </Link>
-              </p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[1]<Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00135-2">Edidiong Orok et al., “Causes and mitigation of academicdishonesty among healthcare students in a Nigerianuniversity,” International Journal for Educational Integrity,vol. 19, no. 1, Jul. 2023. ‌</Link></p>
+              <p>[2]<Link to="https://pcacs.ac.in/national-level-webinar-on-ipr-copyright-and-plagiarism/">PCACSmesac, & PCACSmesac. (2022, July 7). National Level webinar on “IPR, Copyright and Plagiarism” | PCACS. PCACS.</Link></p>
+              <p>[3]<Link to="https://www.skillstork.org/assets/diploma-programme/Academic%20Honesty%20and%20Integrity%20Policy.pdf">"ACADEMIC HONESTY & INTEGRITY POLICY2023- 2024". 2023</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6"></div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[4]<Link to="https://melbourne-cshe.unimelb.edu.au/__data/assets/pdf_file/0006/3590943/Involving-students-in-peer-review.pdf.">Pearce, J., Mulder, R. and Baik, C. (2009). Involving students in peer review Case studies and practical strategies for university teaching.</Link></p>
+              <p>[5]<Link to="https://blog.seorocket.ai/turnitin-checker-can-it-really-detect-undetectable-ai/">SEORocket Blog. (2024). Turnitin Checker: Can It Really Detect Undetectable AI? </Link></p>
+            </div>
           </div>
         </div>
       </div>

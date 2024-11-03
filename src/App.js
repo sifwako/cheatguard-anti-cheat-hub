@@ -43,6 +43,14 @@ import WearableDevices from "./Components/Techniques/TradTimedUnseen/SubTechniqu
 import EssayMills from "./Components/Techniques/WrittenCoursework/SubTechniques/EssayMills";
 import FriendsAndFamilies from "./Components/Techniques/WrittenCoursework/SubTechniques/FriendsAndFamilies";
 import Submittedworks from "./Components/Techniques/WrittenCoursework/SubTechniques/SubmittedWorks";
+import UnauthorizedMaterial from "./Components/Techniques/TradTimedUnseen/UnauthorizedMaterial";
+import AiAssessmentScale from "./Components/Common/AIApproach";
+import LevelOne from "./Components/Techniques/AIBasedCheating/LevelOne"; 
+import LevelTwo from "./Components/Techniques/AIBasedCheating/LevelTwo";
+import LevelThree from "./Components/Techniques/AIBasedCheating/LevelThree";
+import LevelFour from "./Components/Techniques/AIBasedCheating/LevelFour";
+import LevelFive from "./Components/Techniques/AIBasedCheating/LevelFive";
+import PastData from "./Components/Techniques/Laboratory Practical/Past Data";
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -63,76 +71,48 @@ function App() {
         <Route path="/research-essay-report" element={<WrittenCoursework />} />
         <Route path="/laboratory-practical" element={<LaboratoryPractical />} />
         <Route path="/creative-design-task" element={<CreativeDesignTask />} />
-        <Route
-          path="/traditional-timed-unseen"
-          element={<TraditionalTimedUnseenExam />}
-        />
+        <Route path="/traditional-timed-unseen" element={<TraditionalTimedUnseenExam />}/>
         <Route path="/open-book" element={<TimedOpenBook />} />
         <Route path="/patch-work" element={<Patchwork />} />
         <Route path="/team-work" element={<Teamwork />} />
         <Route path="/viva" element={<Viva />} />
-        <Route
-          path="/plagiarism-written-coursework"
-          element={<WrittenCourseworkPlagiarism />}
-        />
-        <Route
-          path="/outsourcing-assessments"
-          element={<OutsourcingAssessments />}
-        />
+        <Route path="/plagiarism-written-coursework"element={<WrittenCourseworkPlagiarism />}/>
+        <Route path="/outsourcing-assessments" element={<OutsourcingAssessments />}/>
         <Route path="/impersonation" element={<Impersonation />}></Route>
-        <Route
-          path="/pre-exam-info-sharing"
-          element={<PreExamInformationSharing />}
-        />
+        <Route path="/pre-exam-info-sharing" element={<PreExamInformationSharing />}/>
         <Route path="/in-lab-collusion" element={<InLabCollusion />}></Route>
-        <Route
-          path="/creative-integrity-breach"
-          element={<CreativeIntegrityBreach />}
-        />
+        <Route path="/creative-integrity-breach" element={<CreativeIntegrityBreach />}/>
         <Route path="/collaboration" element={<Collaboration />} />
         <Route path="/use-of-technology" element={<UseofTechnology />} />
-        <Route
-          path="/preemptive-solution-compilation"
-          element={<PreemptiveSolutionCompilation />}
-        />
+        <Route path="/preemptive-solution-compilation" element={<PreemptiveSolutionCompilation />}/>
         <Route path="/patchwork-plagiarism" element={<PatchworkPlagiarism />} />
-        <Route
-          path="/unethical-collaboration"
-          element={<UnethicalCollaboration />}
-        />
-        <Route
-          path="/accessing-questions-before-exams"
-          element={<AccessingQuestionsBeforeExam />}
-        />
+        <Route path="/unethical-collaboration" element={<UnethicalCollaboration />}/>
+        <Route path="/accessing-questions-before-exams" element={<AccessingQuestionsBeforeExam />}/>
         <Route path="/complete-plagiarism" element={<CompletePlagiarism />} />
         <Route path="/direct-plagiarism" element={<DirectPlagiarism />} />
-        <Route
-          path="/paraphrasing-plagiarism"
-          element={<ParaphrasingPlagiarism />}
-        />
+        <Route path="/paraphrasing-plagiarism"element={<ParaphrasingPlagiarism />}/>
         <Route path="/self-plagiarism" element={<SelfPlagiarism />} />
         <Route path="/in-person" element={<InPerson />} />
         <Route path="/online" element={<Online />}></Route>
         <Route path="/idea-theft" element={<IdeaTheft />} />
-        <Route
-          path="/screen-sharing-and-remote-control"
-          element={<ScreenSharing />}
-        />
+        <Route path="/screen-sharing-and-remote-control" element={<ScreenSharing />}/>
         <Route path="/virtual-machines" element={<VirtualMachines />} />
         <Route path="/wearable-devices" element={<WearableDevices />} />
-        <Route
-          path="/programmable-calculator"
-          element={<ProgrammableCalculator />}
-        />
+        <Route path="/programmable-calculator" element={<ProgrammableCalculator />}/>
         <Route path="/bluetooth-earphones" element={<BluetoothEarphones />} />
         <Route path="/hdmi-cable-screen-sharing" element={<HDMI />} />
         <Route path="/phones" element={<Phones />} />
         <Route path="/essay-mills" element={<EssayMills />} />
         <Route path="/friends-families" element={<FriendsAndFamilies />} />
-        <Route
-          path="/previously-submitted-assignments"
-          element={<Submittedworks />}
-        />
+        <Route path="/previously-submitted-assignments"element={<Submittedworks />}/>
+        <Route path='/unauthorized-material' element={<UnauthorizedMaterial/>}/>
+        <Route path="/ai-assessmentscale" element={<AiAssessmentScale/>}/>
+        <Route path="/past-data" element={<PastData/>}/>
+        <Route path="/level_one" element={<LevelOne/>}/>
+        <Route path="/level_two" element={<LevelTwo/>}/>
+        <Route path="/level_three" element={<LevelThree/>}/>
+        <Route path="/level_four" element={<LevelFour/>}/>
+        <Route path="/level_five" element={<LevelFive/>}/>
       </Routes>
       <Footer />
     </>

@@ -32,8 +32,8 @@ function WearableDevices() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
-              <td>Ban on Wearable Technology </td>
+              <td>M1052</td>
+              <td>Ban on Wearable Technologyv<sup><Link to="https://technologytimes.ng/jamb-bans-wearable-technology-at-2024-utme/">[2]</Link></sup> </td>
               <td>
                 Explicitly prohibit the use of all wearable technology,
                 including smartwatches, during exams and clearly communicate
@@ -54,8 +54,8 @@ function WearableDevices() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
-              <td>Implement physical checks</td>
+              <td>D1040</td>
+              <td>Implement physical checks <sup><Link to="https://www.cipcourses.com/blog/how-does-a-proctored-exam-work/">[2]</Link></sup></td>
               <td>
                 Ensure that students are not wearing smartwatches or any other
                 prohibited devices before exams. The visual inspection can
@@ -71,7 +71,7 @@ function WearableDevices() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]
                 <Link to="https://learnpar.com/exam-cheating-gadgets/">
@@ -79,12 +79,10 @@ function WearableDevices() {
                   commonly use,” LearnPar, Jan. 05, 2024. ‌
                 </Link>
               </p>
+              <p>[2]<Link to="https://technologytimes.ng/jamb-bans-wearable-technology-at-2024-utme/">Michael, J., & Michael, J. (2024, April 16). 2024 UTME: JAMB bans smart watches, wearable tech among 2m candidates - Technology Times | Latest and. Technology Times | Latest and Breaking Nigeria Tech News.</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+          <p>[3]<Link to="https://www.cipcourses.com/blog/how-does-a-proctored-exam-work/">Caduceus International Publishing. (2023, July 28). How does a proctored exam work?</Link></p>
             </div>
           </div>
         </div>

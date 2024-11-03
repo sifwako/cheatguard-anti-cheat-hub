@@ -36,21 +36,12 @@ function VirtualMachines() {
           </thead>
           <tbody>
             <tr>
-              <td>M001</td>
-              <td>Secure Exam Environment </td>
+              <td>M1050</td>
+              <td>Secure Exam Environment <sup><Link to="https://support.proctoru.com/hc/en-us/articles/360043127892-What-am-I-allowed-and-not-allowed-to-do-during-my-exam#:~:text=Regardless%20of%20whether%20you%20can,check%2C%20and%20are%20not%20permitted.">[3]</Link></sup> </td>
               <td>
                 Utilize specialized secure exam proctoring environments or
                 software that cannot be run inside a VM or detects VM
                 environments.
-              </td>
-            </tr>
-            <tr>
-              <td>M002</td>
-              <td>Use of School-Provided Computers</td>
-              <td>
-                Require students to use school-provided computers for testing to
-                ensure a secure environment, while allowing the use of personal
-                devices for study and exam preparation.
               </td>
             </tr>
           </tbody>
@@ -67,22 +58,15 @@ function VirtualMachines() {
           </thead>
           <tbody>
             <tr>
-              <td>D001</td>
-              <td>Proctoring Software</td>
+              <td>D1038</td>
+              <td>Proctoring Software <sup><Link to="https://www.proctoru.com/.">[2]</Link></sup></td>
               <td>
                 Implementing screen monitoring software that can track students'
                 mouse movements and keystrokes to detect any suspicious
                 behavior, including the use of virtual machines.{" "}
               </td>
             </tr>
-            <tr>
-              <td>D002</td>
-              <td>Network Monitoring</td>
-              <td>
-                Monitors network patterns that are typical of VMs, such as
-                specific types of network adapters or unusual IP addresses.
-              </td>
-            </tr>
+       
           </tbody>
         </table>
       </div>
@@ -91,7 +75,7 @@ function VirtualMachines() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.skillrobo.com/11-ways-of-cheating-in-online-exams/">
@@ -100,12 +84,10 @@ function VirtualMachines() {
                   https://www.skillrobo.com/11-ways-of-cheating-in-online-exams/
                 </Link>
               </p>
+              <p>[2]<Link to="https://news.ycombinator.com/item?id=29163258">Most of these proctoring software easily detect Virtualbox, VMware, etc. But QEM. . . | Hacker News. (n.d.).</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link>ProctorU. (2018). ProctorU - The Leading Proctoring Solution for Online Exams. [online]</Link></p>
             </div>
           </div>
         </div>

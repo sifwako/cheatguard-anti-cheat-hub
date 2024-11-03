@@ -34,13 +34,13 @@ function CompletePlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>M1004</td>
+              <td>M1021</td>
               <td>Educational Reinforcement</td>
               <td>
                 Educating students about the severity of submitting someone
                 else's work as their own.Institutions should implement strict
                 penalties for violations, which may include failing grades,
-                suspension, or even expulsion.
+                suspension, or even expulsion<sup><Link to ='https://www.turnitin.com/blog/how-to-avoid-plagiarism-10-strategies-for-your-students'>[4]</Link></sup>.
               </td>
             </tr>
           </tbody>
@@ -57,7 +57,7 @@ function CompletePlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>D1002</td>
+              <td>D1013</td>
               <td>Comprehensive Content Verification</td>
               <td>
                 Using plagiarism detection software to identify identical
@@ -80,7 +80,7 @@ function CompletePlagiarism() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://www.grammarly.com/blog/types-of-plagiarism/">
@@ -92,11 +92,11 @@ function CompletePlagiarism() {
               <p>
                 [2]{" "}
                 <Link to="https://copyleaks.com/plagiarism-checker">
-                  “Plagiarism checker: Ai-Powered Premium Solution,” Copyleaks.{" "}
+                  “Plagiarism checker: Ai-Powered Premium Solution,” Copyleaks.
                 </Link>
               </p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [3]
                 <Link to="https://www.duplichecker.com/">
@@ -104,6 +104,7 @@ function CompletePlagiarism() {
                   DupliChecker, “Plagiarism Checker,” Duplichecker.com, 2019. ‌
                 </Link>
               </p>
+              <p>[4]<Link to ='https://www.turnitin.com/blog/how-to-avoid-plagiarism-10-strategies-for-your-students'> Campbell, A. (2023, December 6). Tips on how to avoid plagiarism as a student | Turnitin.</Link></p>
             </div>
           </div>
         </div>

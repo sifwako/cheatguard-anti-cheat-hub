@@ -5,7 +5,7 @@ import { useState } from "react";
 function PreExamInformationSharing() {
   return (
     <div className="app-container">
-      <h1>Pre-exam Information Sharing</h1>
+      <h1>T1008: Pre-exam Information Sharing</h1>
 
       <div className="description">
         <p>
@@ -45,8 +45,8 @@ function PreExamInformationSharing() {
           </thead>
           <tbody>
             <tr>
-              <td>M1022</td>
-              <td>Varying Question Sets</td>
+              <td>M1037</td>
+              <td>Varying Question Sets <sup><Link to="https://www.facultyfocus.com/articles/educational-assessment/fourteen-simple-strategies-to-reduce-cheating-on-online-examinations/">[3]</Link></sup></td>
               <td>
                 Develop multiple sets of examination questions and rotate them
                 unpredictably among candidates to reduce the effectiveness of
@@ -54,8 +54,8 @@ function PreExamInformationSharing() {
               </td>
             </tr>
             <tr>
-              <td>M1023</td>
-              <td>Schedule Adjustments </td>
+              <td>M1038</td>
+              <td>Schedule Adjustments <sup><Link to="https://www.westernsydney.edu.au/__data/assets/pdf_file/0011/1757837/Designing_and_Assessing_Vivas.pdf">[4]</Link></sup></td>
               <td>
                 Minimize the time gap between successive viva sessions or
                 schedule them simultaneously to limit the opportunity for
@@ -63,8 +63,8 @@ function PreExamInformationSharing() {
               </td>
             </tr>
             <tr>
-              <td>M1024</td>
-              <td>Non-disclosure Agreements </td>
+              <td>M1039</td>
+              <td>Non-disclosure Agreements<sup><Link to="https://www.westernsydney.edu.au/__data/assets/pdf_file/0011/1757837/Designing_and_Assessing_Vivas.pdf">[4]</Link></sup> </td>
               <td>
                 Require students to sign non-disclosure agreements that legally
                 bind them to keep examination content confidential, deterring
@@ -85,8 +85,8 @@ function PreExamInformationSharing() {
           </thead>
           <tbody>
             <tr>
-              <td>D1025</td>
-              <td>Analysis of Student Performance Patterns </td>
+              <td>D1026</td>
+              <td>Analysis of Student Performance Patterns<sup><Link to="https://www.westernsydney.edu.au/__data/assets/pdf_file/0011/1757837/Designing_and_Assessing_Vivas.pdf">[4]</Link></sup></td>
               <td>
                 Analyze patterns in responses and performance across different
                 viva sessions to identify anomalies that suggest shared
@@ -95,7 +95,7 @@ function PreExamInformationSharing() {
               </td>
             </tr>
             <tr>
-              <td>D1026</td>
+              <td>D1027</td>
               <td>Examiner Vigilance</td>
               <td>
                 Train examiners to recognize when a student’s responses seem
@@ -116,7 +116,7 @@ function PreExamInformationSharing() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
               <p>
                 [1]{" "}
                 <Link to="https://otl.uoguelph.ca/guidelines-oral-assessments-and-exams">
@@ -125,18 +125,11 @@ function PreExamInformationSharing() {
                   https://otl.uoguelph.ca/guidelines-oral-assessments-and-exams
                 </Link>
               </p>
+              <p>[2]{" "}<Link to="https://www.mdpi.com/2227-7102/13/2/148">D. B. Guruge and R. Kadel, “Towards an Holistic Framework to Mitigate and Detect Contract Cheating within an Academic Institute—A Proposal,” Education Sciences, vol. 13, no. 2, p.148, Jan. 2023, doi: https://doi.org/10.3390/educsci13020148.</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                [2]{" "}
-                <Link to="https://www.mdpi.com/2227-7102/13/2/148">
-                  D. B. Guruge and R. Kadel, “Towards an Holistic Framework to
-                  Mitigate and Detect Contract Cheating within an Academic
-                  Institute—A Proposal,” Education Sciences, vol. 13, no. 2, p.
-                  148, Jan. 2023, doi: https://doi.org/10.3390/educsci13020148.
-                  ‌
-                </Link>
-              </p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://www.facultyfocus.com/articles/educational-assessment/fourteen-simple-strategies-to-reduce-cheating-on-online-examinations/">Budhai, S. S., PhD. (2020, May 5). Fourteen simple strategies to reduce cheating on Online examinations. Faculty Focus | Higher Ed Teaching & Learning.</Link></p>
+              <p>[4]<Link to="https://www.westernsydney.edu.au/__data/assets/pdf_file/0011/1757837/Designing_and_Assessing_Vivas.pdf.">DESIGNING AND ASSESSING VIVAS. (n.d.).</Link></p>
             </div>
           </div>
         </div>

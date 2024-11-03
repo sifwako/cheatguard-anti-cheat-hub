@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function PatchworkPlagiarism() {
   return (
     <div className="app-container">
-      <h1>Patchwork Plagiarism</h1>
+      <h1>T1015: Patchwork Plagiarism</h1>
       <div className="description">
         <p>
           Patchwork plagiarism or recycling content in assessments is a
@@ -53,8 +53,8 @@ function PatchworkPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>M1040</td>
-              <td>Use of Draft Submissions </td>
+              <td>M1064</td>
+              <td>Use of Draft Submissions <sup><Link to="https://theconversation.com/chatgpt-and-cheating-5-ways-to-change-how-students-are-graded-200248">[5]</Link></sup></td>
               <td>
                 Encourage the submission of drafts before the final submission
                 to review the progression of students’ or writers' work and
@@ -62,7 +62,7 @@ function PatchworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>M1041</td>
+              <td>M1065</td>
               <td>Incremental Feedback </td>
               <td>
                 Implement a system of ongoing, incremental feedback throughout
@@ -78,8 +78,8 @@ function PatchworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>M1042</td>
-              <td> Promote Reflective Practices </td>
+              <td>M1066</td>
+              <td> Promote Reflective Practices <sup><Link to="https://www.researchgate.net/publication/240699458_Encouraging_students_to_reflect_as_part_of_the_assignment_processStudent_responses_and_tutor_feedback">[6]</Link></sup></td>
               <td>
                 Encourage students to approach each task reflectively,
                 considering how their understanding has evolved since their last
@@ -101,7 +101,7 @@ function PatchworkPlagiarism() {
           </thead>
           <tbody>
             <tr>
-              <td>D1041</td>
+              <td>D1054</td>
               <td>Consistency Checks</td>
               <td>
                 Instructors can perform manual checks of assignments to look for
@@ -118,7 +118,7 @@ function PatchworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>D1042</td>
+              <td>D1055</td>
               <td>Usage of Plagiarism Detection Tools </td>
               <td>
                 Employ advanced plagiarism detection software like CrossCheck®
@@ -140,8 +140,8 @@ function PatchworkPlagiarism() {
               </td>
             </tr>
             <tr>
-              <td>D1043</td>
-              <td>Oral Defenses </td>
+              <td>D1056</td>
+              <td>Oral Defenses<sup><Link to="https://www.teqsa.gov.au/sites/default/files/2022-10/substantiating-contract-cheating-guide-investigators.pdf">[7]</Link></sup></td>
               <td>
                 Require students to present and defend their patchwork verbally.
                 This can be an effective way to ensure that the student
@@ -157,37 +157,16 @@ function PatchworkPlagiarism() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-              <p>
-                {" "}
-                [1] <Link to="https://www.researchgate.net/publication/256460514_Patchwork_plagiarism">
-                  “(PDF) patchwork plagiarism,
-                  https://www.researchgate.net/publication/256460514_Patchwork_plagiarism
-                  (accessed May 11, 2024).
-                </Link>
-              </p>
-              <p>[2] <Link to="https://copyleaks.com/blog/patchwork-plagiarism-understand-it-to-avoid-it">
-                  Carmil, “Patchwork Plagiarism: Understand It to Avoid It,”
-                  Copyleaks, Nov. 23, 2020.
-                  https://copyleaks.com/blog/patchwork-plagiarism-understand-it-to-avoid-it
-                  ‌
-                </Link>
-              </p>
-            
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>{" "}[1] <Link to="https://www.researchgate.net/publication/256460514_Patchwork_plagiarism">“(PDF) patchwork plagiarism,https://www.researchgate.net/publication/256460514_Patchwork_plagiarism(accessed May 11, 2024).</Link></p>
+              <p>[2] <Link to="https://copyleaks.com/blog/patchwork-plagiarism-understand-it-to-avoid-it">Carmil, “Patchwork Plagiarism: Understand It to Avoid It,”Copyleaks, Nov. 23, 2020.https://copyleaks.com/blog/patchwork-plagiarism-understand-it-to-avoid-it</Link></p>
+              <p>[3] <Link to="https://www.ieee.org/publications/rights/cross-check-main.html">CrossCheck Information Page.{" "}</Link></p>
+              <p>[4] <Link to="https://warwick.ac.uk/fac/cross_fac/academic-development/assessmentdesign/methods/patchwork/">“Patchwork assessment,” warwick.ac.uk.https://warwick.ac.uk/fac/cross_fac/academic-development/assessmentdesign/methods/patchwork/</Link></p>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-            <p>
-                [3] <Link to="https://www.ieee.org/publications/rights/cross-check-main.html">
-                  CrossCheck Information Page.{" "}
-                </Link>
-              </p>
-            <p>
-                [4] <Link to="https://warwick.ac.uk/fac/cross_fac/academic-development/assessmentdesign/methods/patchwork/">
-                  “Patchwork assessment,” warwick.ac.uk.
-                  https://warwick.ac.uk/fac/cross_fac/academic-development/assessmentdesign/methods/patchwork/
-                  ‌
-                </Link>
-              </p>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[5]<Link to="https://theconversation.com/chatgpt-and-cheating-5-ways-to-change-how-students-are-graded-200248">DeLuca, C., Klinger, D. A., & Volante, L. (n.d.). ChatGPT and cheating: 5 ways to change how students are graded. The Conversation.</Link></p>
+              <p>[6]<Link to="https://www.researchgate.net/publication/240699458_Encouraging_students_to_reflect_as_part_of_the_assignment_processStudent_responses_and_tutor_feedback">Thorpe, Mary. (2000). Encouraging students to reflect as part of the assignment processStudent responses and tutor feedback. Active Learning in Higher Education. 1. 79-92.</Link></p>
+              <p>[7]<Link to="https://www.teqsa.gov.au/sites/default/files/2022-10/substantiating-contract-cheating-guide-investigators.pdf.">Substantiating contract cheating: A guide for investigators Key principles. (n.d.).</Link></p>
             </div>
           </div>
         </div>

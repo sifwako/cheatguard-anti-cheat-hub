@@ -7,7 +7,7 @@ function UnethicalCollaboration() {
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
     <div className="app-container">
-      <h1>Unethical Collaboration</h1>
+      <h1>T1015: Unethical Collaboration</h1>
       <div className="description">
         <p>
           Unethical collaboration in teamwork assessments involves dishonest
@@ -39,8 +39,8 @@ function UnethicalCollaboration() {
           </thead>
           <tbody>
             <tr>
-              <td>M1043</td>
-              <td>Regular Progress Checks </td>
+              <td>M1067</td>
+              <td>Regular Progress Checks<sup><Link to="https://www.knack.com/blog/how-to-track-student-progress/">[3]</Link></sup></td>
               <td>
                 Conduct scheduled checks where team members must demonstrate
                 their ongoing contributions and understanding of the project,
@@ -62,7 +62,7 @@ function UnethicalCollaboration() {
           </thead>
           <tbody>
             <tr>
-              <td>D1044</td>
+              <td>D1057</td>
               <td>Peer Assessment</td>
               <td>
                 Implement peer assessments where team members evaluate each
@@ -84,7 +84,7 @@ function UnethicalCollaboration() {
         <div className="container-fluid">
           <div className="row">
             <h2> References</h2>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6"style={{ textAlign: "left" }} >
               <p>
                 [1] <Link to="https://philarchive.org/archive/BETSAOv1">
                   M. Betta, “Self and others in team-based learning: Acquiring
@@ -93,17 +93,16 @@ function UnethicalCollaboration() {
                   https://doi.org/10.1080/08832323.2015.1122562. ‌
                 </Link>
               </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
-            <p>
+              <p>
                 [2]{" "}
                 <Link to="https://onlinelibrary.wiley.com/doi/abs/10.1002/tl.334">
                   C. M. Cestone, R. E. Levine, and D. R. Lane, “Peer assessment
                   and evaluation in team-based learning,” New Directions for
-                  Teaching and Learning, vol. 2008, no. 116, pp. 69–78, Sep.
-                  2008, doi: https://doi.org/10.1002/tl.334. ‌
-                </Link>
-              </p>
+                  Teaching and Learning, vol. 2008, no. 116, pp. 69–78, Sep.2008.‌
+                </Link></p>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign: "left" }}>
+              <p>[3]<Link to="https://www.knack.com/blog/how-to-track-student-progress/">Kolosky, C. (2024, January 2). Strategies for tracking student progress. Knack: No-Code Application Development Platform.</Link></p>
             </div>
           </div>
         </div>
