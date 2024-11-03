@@ -41,7 +41,7 @@ function HomePage() {
       </div>
 
       <div className="matrix-scroll-box pb-3">
-        <h2 className="matrix-title">CheatGuard Matrix<span className="knowledgebase-size">:160+ Sources</span></h2>
+        <h2 className="matrix-title">CheatGuard Matrix<span className="knowledgebase-size">:160 Sources</span></h2>
         <div className="matrix-grid">
         <div className="matrix-container">
             <h6>
