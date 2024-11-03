@@ -43,13 +43,14 @@ import WearableDevices from "./Components/Techniques/TradTimedUnseen/SubTechniqu
 import EssayMills from "./Components/Techniques/WrittenCoursework/SubTechniques/EssayMills";
 import FriendsAndFamilies from "./Components/Techniques/WrittenCoursework/SubTechniques/FriendsAndFamilies";
 import Submittedworks from "./Components/Techniques/WrittenCoursework/SubTechniques/SubmittedWorks";
+import UnauthorizedMaterial from "./Components/Techniques/TradTimedUnseen/UnauthorizedMaterial";
 import AiAssessmentScale from "./Components/Common/AIApproach";
 import LevelOne from "./Components/Techniques/AIBasedCheating/LevelOne"; 
 import LevelTwo from "./Components/Techniques/AIBasedCheating/LevelTwo";
 import LevelThree from "./Components/Techniques/AIBasedCheating/LevelThree";
 import LevelFour from "./Components/Techniques/AIBasedCheating/LevelFour";
 import LevelFive from "./Components/Techniques/AIBasedCheating/LevelFive";
-
+import PastData from "./Components/Techniques/Laboratory Practical/Past Data";
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -104,7 +105,9 @@ function App() {
         <Route path="/essay-mills" element={<EssayMills />} />
         <Route path="/friends-families" element={<FriendsAndFamilies />} />
         <Route path="/previously-submitted-assignments"element={<Submittedworks />}/>
+        <Route path='/unauthorized-material' element={<UnauthorizedMaterial/>}/>
         <Route path="/ai-assessmentscale" element={<AiAssessmentScale/>}/>
+        <Route path="/past-data" element={<PastData/>}/>
         <Route path="/level_one" element={<LevelOne/>}/>
         <Route path="/level_two" element={<LevelTwo/>}/>
         <Route path="/level_three" element={<LevelThree/>}/>

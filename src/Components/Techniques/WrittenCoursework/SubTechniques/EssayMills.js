@@ -15,7 +15,7 @@ function EssayMills() {
           they can submit as their own, these services facilitate academic
           dishonesty<sup><Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-021-00081-x">[7]</Link></sup>. Many essay mills recruit writers through bidding processes
           and operate for profit rather than to provide a good service to their
-          customers{" "}
+          customers. It has even reached the point where they promote their services via different platform without considering their influence on student learning experience for instance essay mill services like those found on Fiverr<sup><Link to='https://www.fiverr.com/?utm_source=google&utm_medium=cpc-brand&utm_campaign=G_FI-EN_Brand&utm_term=fiver%20site_(phrase)&utm_content=AdID^653849449874^Keyword^fiverr%20website^Placement^^Device^c&caid=417789908&agid=35165143988&ad_id=653849449874&kw=fiverr%20website&lpcat=br_general&show_join=true&gad_source=1&gclid=Cj0KCQjwvpy5BhDTARIsAHSilyn8tmGNWggPHiLqr7vzyOos5gi9cR-YZ0fVdE6SWfdqN4-NrJFjUB4aAoJfEALw_wcB'>[8]</Link></sup>.{" "}
           <sup>
             {" "}
             <Link to="https://doi.org/10.1007/s40979-021-00081-x.">[1]</Link>
@@ -235,6 +235,7 @@ function EssayMills() {
               <p>[5]<Link to="https://elearning.company/blog/adaptive-assessments-and-personalized-feedback-the-future-of-education/">eLearning Company Blog (2024). Adaptive Assessments and Personalized Feedback: The Future of... [online] The eLearning Blog.</Link></p>
               <p>[6]<Link to="https://www.timeshighereducation.com/campus/deter-contract-cheating-online-assessment-multipronged-approach">Deter contract cheating in online assessment with a multi-pronged approach. (2024, July 16). THE Campus Learn, Share, Connect.</Link></p>
               <p>[7]<Link to="https://edintegrity.biomedcentral.com/articles/10.1007/s40979-021-00081-x">M. Draper, T. Lancaster, S. Dann, R. Crockett, and I. Glendinning, “Essay mills and other contract cheating services: to buy or not to buy and the consequences of students changing their minds,” International Journal for Educational Integrity, vol. 17, no. 1, pp. 1–13, Dec. 2021</Link></p>
+              <p>[8]<Link to=' https://www.fiverr.com '>Fiverr | Freelance Services Marketplace | find top global talent. (n.d.).</Link></p>
             </div>
           </div>
         </div>

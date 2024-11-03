@@ -41,7 +41,7 @@ function HomePage() {
       </div>
 
       <div className="matrix-scroll-box pb-3">
-        <h2 className="matrix-title">CheatGuard Matrix</h2>
+        <h2 className="matrix-title">CheatGuard Matrix<span className="knowledgebase-size">:160+ Sources</span></h2>
         <div className="matrix-grid">
         <div className="matrix-container">
             <h6>
@@ -208,6 +208,17 @@ function HomePage() {
                   </Link>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <Link
+                    to="/past-data"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Use of past data
+                  </Link>
+                </td>
+              </tr>
             </table>
           </div>
 
@@ -272,6 +283,17 @@ function HomePage() {
                     data-bs-placement="top"
                   >
                     Use of technology<sub>(6)</sub>
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <Link
+                    to="/unauthorized-material"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                  >
+                    Unauthorized Material
                   </Link>
                 </td>
               </tr>

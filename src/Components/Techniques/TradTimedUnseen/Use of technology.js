@@ -283,7 +283,6 @@ function UseofTechnology() {
                 <Link to="https://videoloft.com/cctv-for-schools/">
                   A. Pearson, “Educational facilities security - How to keep
                   your campus secure,” Videoloft, Dec. 09, 2020.
-                  https://videoloft.com/cctv-for-schools/ ‌
                 </Link>
               </p>
               <p>
@@ -291,8 +290,6 @@ function UseofTechnology() {
                 <Link to="https://www.techrxiv.org/users/706619/articles/691866-automatic-cheating-detection-in-exam-hall">
                   “Automatic Cheating Detection In Exam Hall - TechRxiv,”
                   www.techrxiv.org.
-                  https://www.techrxiv.org/users/706619/articles/691866-automatic-cheating-detection-in-exam-hall
-                  (accessed May 11, 2024). ‌
                 </Link>
               </p>
               <p>[6]<Link to="https://synap.ac/blog/anti-cheat-methods-for-online-exams/">15 anti-cheating methods for online exam security - Synap - Synap Blog. (n.d.).</Link></p>
