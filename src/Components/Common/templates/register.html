@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<div class="container">
+    <h1>Register</h1>
+    <form method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <label for="organization_name">Organization Name</label>
+        <input type="text" id="organization_name" name="organization_name" required>
+        <label for="organization_type">Organization Type</label>
+        <select id="organization_type" name="organization_type" required>
+            <option value="university">University</option>
+            <option value="high_school">High School</option>
+            <option value="educational_agency">Educational Agency</option>
+            <option value="others">Others</option>
+        </select>
+        <input type="text" id="other_organization_type" name="other_organization_type" placeholder="Specify other organization type" style="display:none;">
+        <label for="organization_website">Organization Website</label>
+        <input type="text" id="organization_website" name="organization_website" required>
+        <button type="submit"><i class="fas fa-user-plus"></i> Register</button>
+    </form>
+    <div class="link">
+        <span>Already have an account? <a href="{{ url_for('login') }}">Login here</a></span>
+    </div>
+</div>
+{% endblock %}

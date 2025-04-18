@@ -1,0 +1,31 @@
+.app-container {
+  margin: 4%;
+  margin-top: 0%;
+}
+
+.description-body {
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.table-techniques {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-techniques,
+.table-techniques th,
+.table-techniques td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table-techniques thead td {
+  background-color: #f2f2f2;
+}
+.table-techniques tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.table-techniques .technique td[colspan="2"] {
+  font-weight: bold;
+}
+.table-techniques .sub.technique td {
+  padding-left: 20px;
+}
