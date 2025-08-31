@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CheatGuard/static/css/main.8da5afed.css",
-    "main.js": "/CheatGuard/static/js/main.3663622d.js",
-    "static/media/ai-integration.jpg": "/CheatGuard/static/media/ai-integration.c64e47bb8effd1979a4c.jpg",
-    "static/media/logo.png": "/CheatGuard/static/media/logo.e0d6fc8733da5ce7f244.png",
-    "index.html": "/CheatGuard/index.html",
-    "main.8da5afed.css.map": "/CheatGuard/static/css/main.8da5afed.css.map",
-    "main.3663622d.js.map": "/CheatGuard/static/js/main.3663622d.js.map"
+    "main.css": "/cheatguard-anti-cheat-hub/static/css/main.8da5afed.css",
+    "main.js": "/cheatguard-anti-cheat-hub/static/js/main.625bfdda.js",
+    "static/media/ai-integration.jpg": "/cheatguard-anti-cheat-hub/static/media/ai-integration.c64e47bb8effd1979a4c.jpg",
+    "static/media/logo.png": "/cheatguard-anti-cheat-hub/static/media/logo.e0d6fc8733da5ce7f244.png",
+    "index.html": "/cheatguard-anti-cheat-hub/index.html",
+    "main.8da5afed.css.map": "/cheatguard-anti-cheat-hub/static/css/main.8da5afed.css.map",
+    "main.625bfdda.js.map": "/cheatguard-anti-cheat-hub/static/js/main.625bfdda.js.map"
   },
   "entrypoints": [
     "static/css/main.8da5afed.css",
-    "static/js/main.3663622d.js"
+    "static/js/main.625bfdda.js"
   ]
 }
