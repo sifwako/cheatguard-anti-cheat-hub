@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Temperature Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background: #fff; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 10px 15px; background: #f5f5f5; position: sticky; top: 0; z-index: 10; }
+    header h1 { font-size: 16px; margin: 0; white-space: nowrap; }
+    header .center { font-size: 13px; text-align: center; flex: 1; }
+    header .icons { display: flex; gap: 12px; font-size: 20px; position: relative; }
+    .bell { position: relative; }
+    .bell::after { content: "3"; position: absolute; top: -5px; right: -5px; background: red; color: white; border-radius: 50%; font-size: 10px; padding: 2px 5px; }
+
+    .controls-bar { display: flex; flex-direction: column; gap: 8px; padding: 10px 15px; background: #fafafa; border-bottom: 1px solid #ddd; }
+    .controls-bar select, .controls-bar label { padding: 10px; font-size: 14px; border-radius: 6px; border: 1px solid #ccc; width: 100%; }
+    .controls-bar label { display: flex; align-items: center; gap: 8px; }
+
+    .summary-bar, .timestamp { font-size: 13px; padding: 10px 15px; background: #f0f0f0; }
+    .timestamp { font-style: italic; color: #777; border-top: 1px solid #ddd; }
+
+    .legend { display: flex; gap: 12px; font-size: 13px; padding: 8px 15px; background: #fff; border-top: 1px solid #ddd; }
+    .legend div::before { content: ''; display: inline-block; width: 12px; height: 12px; margin-right: 5px; border-radius: 50%; }
+    .legend .green::before { background: #e0f7e9; }
+    .legend .orange::before { background: #fff3e0; }
+    .legend .red::before { background: #ffebee; }
+
+    .patient-grid { display: flex; flex-direction: column; gap: 10px; padding: 10px 15px; }
+    .patient-card { display: flex; flex-direction: column; justify-content: space-between; padding: 12px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 1px 2px rgba(0,0,0,0.05); background: #fff; }
+    .normal { background: #e0f7e9; }
+    .elevated { background: #fff3e0; }
+    .fever { background: #ffebee; }
+    .patient-header { font-weight: bold; font-size: 14px; margin-bottom: 4px; }
+    .patient-location { font-size: 12px; color: #555; margin-bottom: 6px; }
+    .patient-temp { font-size: 20px; font-weight: bold; margin-bottom: 6px; }
+    .status-icon { font-size: 16px; margin-bottom: 6px; display: flex; align-items: center; gap: 4px; }
+    .details-button { font-size: 13px; padding: 8px; border: 1px solid #888; border-radius: 4px; background: #fff; cursor: pointer; text-align: center; max-width: 100px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>St. George General Hospital</h1>
+  <div class="center">April 29, 2025 | 14:23</div>
+  <div class="icons">
+    <span>⚙️</span>
+    <span>🔄</span>
+    <span class="bell">🔔</span>
+  </div>
+</header>
+
+<div class="controls-bar">
+  <select>
+    <option>All Patients</option>
+    <option>Normal Only</option>
+    <option>Fever Only</option>
+  </select>
+  <select>
+    <option>Sort by Temperature</option>
+    <option>Sort by Name (A–Z)</option>
+  </select>
+  <label><input type="checkbox" checked> Alert if temp > 38°C</label>
+</div>
+
+<div class="summary-bar">
+  Total: 15 | Normal: 11 | Fever: 3 | Monitor: 1
+</div>
+
+<div class="legend">
+  <div class="green">✅ Normal (36–37.5°C)</div>
+  <div class="orange">⚠️ Elevated (37.5–38°C)</div>
+  <div class="red">🚨 Fever (>38°C)</div>
+</div>
+
+<div class="patient-grid">
+  <div class="patient-card fever">
+    <div class="patient-header">John M., ID: 4523</div>
+    <div class="patient-location">Ward A, Bed 2</div>
+    <div class="patient-temp">38.4°C</div>
+    <div class="status-icon">🚨 Fever</div>
+    <div class="details-button">Details</div>
+  </div>
+  <div class="patient-card normal">
+    <div class="patient-header">Alice T., ID: 4524</div>
+    <div class="patient-location">Ward B, Bed 1</div>
+    <div class="patient-temp">36.8°C</div>
+    <div class="status-icon">😊 Stable</div>
+    <div class="details-button">Details</div>
+  </div>
+  <div class="patient-card elevated">
+    <div class="patient-header">Eric J., ID: 4525</div>
+    <div class="patient-location">Outdoor Triage</div>
+    <div class="patient-temp">37.7°C</div>
+    <div class="status-icon">⚠️ Monitor</div>
+    <div class="details-button">Details</div>
+  </div>
+  <div class="patient-card normal">
+    <div class="patient-header">Nina P., ID: 4526</div>
+    <div class="patient-location">Ward A, Bed 5</div>
+    <div class="patient-temp">36.5°C</div>
+    <div class="status-icon">😊 Stable</div>
+    <div class="details-button">Details</div>
+  </div>
+  <!-- Add 11 more patient cards similarly if needed -->
+</div>
+
+<div class="timestamp">
+  Last updated: 1 min ago
+</div>
+
+</body>
+</html>
